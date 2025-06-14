@@ -1,0 +1,41 @@
+# Web框架
+flask==2.3.3
+flask-cors==4.0.0
+
+# 数据处理
+pandas==2.0.3
+numpy==1.24.3
+requests==2.31.0
+
+# 图形可视化
+matplotlib==3.7.2
+plotly==5.15.0
+
+# 机器学习/AI
+transformers==4.33.2
+torch==2.0.1
+openai==0.27.8
+
+# 语义Web/RDF
+rdflib==6.3.2
+SPARQLWrapper==2.0.0
+
+# 时间序列处理
+schedule==1.2.0
+datetime
+
+# JSON/XML处理
+jsonschema==4.19.0
+lxml==4.9.3
+
+# 测试框架
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# 实时通信
+websockets==11.0.3
+python-socketio==5.8.0
+
+# 其他工具
+python-dotenv==1.0.0
+pyyaml==6.0.1

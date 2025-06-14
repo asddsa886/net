@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "home": "http://smart-home.example.org/"
+  },
+  "sensors": [
+    {
+      "id": "home:temperatureSensor_001",
+      "type": "ssn:Sensor",
+      "name": "客厅温度传感器",
+      "location": "客厅",
+      "observes": "home:Temperature", 
+      "properties": {
+        "range": {"min": -20, "max": 50, "unit": "°C"},
+        "accuracy": 0.1,
+        "resolution": 0.01,
+        "responseTime": "5s"
+      },
+      "capabilities": {
+        "operatingRange": {"temperature": {"min": -10, "max": 60}},
+        "powerConsumption": "3.3V, 1.5mA"
+      }
+    },
+    {
+      "id": "home:humiditySensor_001", 
+      "type": "ssn:Sensor",
+      "name": "客厅湿度传感器",
+      "location": "客厅",
+      "observes": "home:Humidity",
+      "properties": {
+        "range": {"min": 0, "max": 100, "unit": "%RH"},
+        "accuracy": 2,
+        "resolution": 0.1,
+        "responseTime": "8s"
+      }
+    },
+    {
+      "id": "home:smokeSensor_001",
+      "type": "ssn:Sensor", 
+      "name": "厨房烟雾传感器",
+      "location": "厨房",
+      "observes": "home:SmokeLevel",
+      "properties": {
+        "range": {"min": 0, "max": 1000, "unit": "ppm"},
+        "threshold": 200,
+        "responseTime": "30s"
+      }
+    },
+    {
+      "id": "home:motionSensor_001",
+      "type": "ssn:Sensor",
+      "name": "玄关人体感应器", 
+      "location": "玄关",
+      "observes": "home:Motion",
+      "properties": {
+        "detectionRange": "5m",
+        "detectionAngle": "120°",
+        "responseTime": "1s"
+      }
+    },
+    {
+      "id": "home:lightSensor_001",
+      "type": "ssn:Sensor",
+      "name": "客厅光照传感器",
+      "location": "客厅", 
+      "observes": "home:Illuminance",
+      "properties": {
+        "range": {"min": 1, "max": 65535, "unit": "lux"},
+        "accuracy": 10
+      }
+    }
+  ],
+  "observableProperties": [
+    {
+      "id": "home:Temperature",
+      "type": "sosa:ObservableProperty",
+      "name": "温度",
+      "description": "环境温度"
+    },
+    {
+      "id": "home:Humidity", 
+      "type": "sosa:ObservableProperty",
+      "name": "湿度",
+      "description": "相对湿度"
+    },
+    {
+      "id": "home:SmokeLevel",
+      "type": "sosa:ObservableProperty", 
+      "name": "烟雾浓度",
+      "description": "空气中烟雾颗粒浓度"
+    },
+    {
+      "id": "home:Motion",
+      "type": "sosa:ObservableProperty",
+      "name": "运动检测", 
+      "description": "人体运动检测"
+    },
+    {
+      "id": "home:Illuminance",
+      "type": "sosa:ObservableProperty",
+      "name": "光照强度",
+      "description": "环境光照强度"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "home:livingRoomPlatform",
+      "type": "sosa:Platform",
+      "name": "客厅传感器平台",
+      "location": "客厅",
+      "hosts": [
+        "home:temperatureSensor_001",
+        "home:humiditySensor_001", 
+        "home:lightSensor_001"
+      ]
+    },
+    {
+      "id": "home:kitchenPlatform",
+      "type": "sosa:Platform", 
+      "name": "厨房传感器平台",
+      "location": "厨房",
+      "hosts": [
+        "home:smokeSensor_001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6080 @@
+[
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894924",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 38.24800758248672,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:24.294864",
+      "phenomenonTime": "2025-06-14T17:55:24.294864",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:24.294864"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 38.24800758248672,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894924",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 23.53226725291003,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:24.294864",
+      "phenomenonTime": "2025-06-14T17:55:24.294864",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:24.294864"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 23.53226725291003,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894924",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 98.61715725423633,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:24.294864",
+      "phenomenonTime": "2025-06-14T17:55:24.294864",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:24.294864"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894924",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 28.747436415668503,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:24.294864",
+      "phenomenonTime": "2025-06-14T17:55:24.294864",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:24.294864"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894924",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 9.909068806289834,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:24.294864",
+      "phenomenonTime": "2025-06-14T17:55:24.294864",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:24.294864"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749894924",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:24.294864",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 9.909068806289834,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894929",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 39.08685210444565,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:29.303885",
+      "phenomenonTime": "2025-06-14T17:55:29.303885",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:29.303885"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 39.08685210444565,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894929",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 64.2532948130462,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:29.303885",
+      "phenomenonTime": "2025-06-14T17:55:29.303885",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:29.303885"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894929",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 57.55012356015246,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:29.303885",
+      "phenomenonTime": "2025-06-14T17:55:29.303885",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:29.303885"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894929",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 32.386748737199675,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:29.303885",
+      "phenomenonTime": "2025-06-14T17:55:29.303885",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:29.303885"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894929",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:29.303885",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894929",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 43.78205130396443,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:29.303885",
+      "phenomenonTime": "2025-06-14T17:55:29.303885",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:29.303885"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894934",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:34.309076",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894934",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 27.50448475629579,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:34.309076",
+      "phenomenonTime": "2025-06-14T17:55:34.309076",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:34.309076"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894934",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:34.309076",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894934",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 38.31581107276505,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:34.309076",
+      "phenomenonTime": "2025-06-14T17:55:34.309076",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:34.309076"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894934",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:34.309076",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894934",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 25.18748403286316,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:34.309076",
+      "phenomenonTime": "2025-06-14T17:55:34.309076",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:34.309076"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894934",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:34.309076",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894934",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 98.51498388509083,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:34.309076",
+      "phenomenonTime": "2025-06-14T17:55:34.309076",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:34.309076"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894934",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:34.309076",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894934",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 65.27693679188415,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:34.309076",
+      "phenomenonTime": "2025-06-14T17:55:34.309076",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:34.309076"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894939",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 2.626553472968396,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:39.315677",
+      "phenomenonTime": "2025-06-14T17:55:39.315677",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:39.315677"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 2.626553472968396,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894939",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 18.26482172968371,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:39.315677",
+      "phenomenonTime": "2025-06-14T17:55:39.315677",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:39.315677"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 18.26482172968371,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894939",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 9.878341069596985,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:39.315677",
+      "phenomenonTime": "2025-06-14T17:55:39.315677",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:39.315677"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894939",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 80.46348165355322,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:39.315677",
+      "phenomenonTime": "2025-06-14T17:55:39.315677",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:39.315677"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894939",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:39.315677",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894939",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 22.194491857747657,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:39.315677",
+      "phenomenonTime": "2025-06-14T17:55:39.315677",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:39.315677"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894944",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 74.69245318650363,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:44.323983",
+      "phenomenonTime": "2025-06-14T17:55:44.323983",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:44.323983"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 74.69245318650363,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894944",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 46.328548453114905,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:44.323983",
+      "phenomenonTime": "2025-06-14T17:55:44.323983",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:44.323983"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894944",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 61.107037357731365,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:44.323983",
+      "phenomenonTime": "2025-06-14T17:55:44.323983",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:44.323983"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894944",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 46.505033127618965,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:44.323983",
+      "phenomenonTime": "2025-06-14T17:55:44.323983",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:44.323983"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894944",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:44.323983",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894944",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 86.00283716434585,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:44.323983",
+      "phenomenonTime": "2025-06-14T17:55:44.323983",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:44.323983"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894949",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 48.11966224837575,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:49.327885",
+      "phenomenonTime": "2025-06-14T17:55:49.327885",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:49.327885"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 48.11966224837575,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894949",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 15.808029289807468,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:49.327885",
+      "phenomenonTime": "2025-06-14T17:55:49.327885",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:49.327885"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 15.808029289807468,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894949",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 47.968325217875496,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:49.327885",
+      "phenomenonTime": "2025-06-14T17:55:49.327885",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:49.327885"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894949",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 97.2308911614725,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:49.327885",
+      "phenomenonTime": "2025-06-14T17:55:49.327885",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:49.327885"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894949",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:49.327885",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894949",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 56.93218119459898,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:49.327885",
+      "phenomenonTime": "2025-06-14T17:55:49.327885",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:49.327885"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894954",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 58.794589736872325,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:54.332241",
+      "phenomenonTime": "2025-06-14T17:55:54.332241",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:54.332241"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 58.794589736872325,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894954",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 65.20725405301421,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:54.332241",
+      "phenomenonTime": "2025-06-14T17:55:54.332241",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:54.332241"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894954",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 77.25492853682496,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:54.332241",
+      "phenomenonTime": "2025-06-14T17:55:54.332241",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:54.332241"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894954",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 93.99302512173273,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:54.332241",
+      "phenomenonTime": "2025-06-14T17:55:54.332241",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:54.332241"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894954",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:54.332241",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894954",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 35.628622512495376,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:54.332241",
+      "phenomenonTime": "2025-06-14T17:55:54.332241",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:54.332241"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894959",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 53.26127104837127,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:55:59.339048",
+      "phenomenonTime": "2025-06-14T17:55:59.339048",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:59.339048"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 53.26127104837127,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894959",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 16.26251921661579,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:55:59.339048",
+      "phenomenonTime": "2025-06-14T17:55:59.339048",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:59.339048"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 16.26251921661579,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894959",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 28.71110100246672,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:55:59.339048",
+      "phenomenonTime": "2025-06-14T17:55:59.339048",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:59.339048"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894959",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 72.39812108560693,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:55:59.339048",
+      "phenomenonTime": "2025-06-14T17:55:59.339048",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:59.339048"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894959",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:55:59.339048",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894959",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 37.19948817936054,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:55:59.339048",
+      "phenomenonTime": "2025-06-14T17:55:59.339048",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:55:59.339048"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894964",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 13.403187598851584,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:04.344783",
+      "phenomenonTime": "2025-06-14T17:56:04.344783",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:04.344783"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 13.403187598851584,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894964",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 48.160163127407785,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:04.344783",
+      "phenomenonTime": "2025-06-14T17:56:04.344783",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:04.344783"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894964",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 62.31548985714653,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:04.344783",
+      "phenomenonTime": "2025-06-14T17:56:04.344783",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:04.344783"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894964",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 5.251391394020244,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:04.344783",
+      "phenomenonTime": "2025-06-14T17:56:04.344783",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:04.344783"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894964",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:04.344783",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894964",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 49.833723843143964,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:04.344783",
+      "phenomenonTime": "2025-06-14T17:56:04.344783",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:04.344783"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894969",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 33.50157143975997,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:09.351927",
+      "phenomenonTime": "2025-06-14T17:56:09.351927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:09.351927"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 33.50157143975997,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894969",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 12.809353212873543,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:09.351927",
+      "phenomenonTime": "2025-06-14T17:56:09.351927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:09.351927"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 12.809353212873543,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894969",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 16.41136779206719,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:09.351927",
+      "phenomenonTime": "2025-06-14T17:56:09.351927",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:09.351927"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894969",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 0.23378216546258157,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:09.351927",
+      "phenomenonTime": "2025-06-14T17:56:09.351927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:09.351927"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894969",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:09.351927",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894969",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 99.33271538085529,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:09.351927",
+      "phenomenonTime": "2025-06-14T17:56:09.351927",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:09.351927"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894974",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 99.03256701199946,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:14.356722",
+      "phenomenonTime": "2025-06-14T17:56:14.356722",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:14.356722"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 99.03256701199946,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894974",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 40.933237412330705,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:14.356722",
+      "phenomenonTime": "2025-06-14T17:56:14.356722",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:14.356722"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894974",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 52.92097353075948,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:14.356722",
+      "phenomenonTime": "2025-06-14T17:56:14.356722",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:14.356722"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894974",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 76.91955051004072,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:14.356722",
+      "phenomenonTime": "2025-06-14T17:56:14.356722",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:14.356722"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894974",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:14.356722",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894974",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 27.66003425646282,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:14.356722",
+      "phenomenonTime": "2025-06-14T17:56:14.356722",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:14.356722"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:19.361829",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894979",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 4.873705576237097,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:19.361829",
+      "phenomenonTime": "2025-06-14T17:56:19.361829",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:19.361829"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:19.361829",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 4.873705576237097,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:19.361829",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894979",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 44.1482187502744,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:19.361829",
+      "phenomenonTime": "2025-06-14T17:56:19.361829",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:19.361829"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:19.361829",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894979",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 38.74186728875535,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:19.361829",
+      "phenomenonTime": "2025-06-14T17:56:19.361829",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:19.362804"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:19.362804",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894979",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 20.469543649972067,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:19.362804",
+      "phenomenonTime": "2025-06-14T17:56:19.362804",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:19.362804"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894979",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:19.363778",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894979",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 88.02582691987291,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:19.363778",
+      "phenomenonTime": "2025-06-14T17:56:19.363778",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:19.363778"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894984",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 94.16284490606711,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:24.370192",
+      "phenomenonTime": "2025-06-14T17:56:24.370192",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:24.370192"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 94.16284490606711,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894984",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 19.276989202096708,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:24.370192",
+      "phenomenonTime": "2025-06-14T17:56:24.370192",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:24.370192"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 19.276989202096708,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894984",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 34.00487496279296,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:24.370192",
+      "phenomenonTime": "2025-06-14T17:56:24.370192",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:24.370192"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894984",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 67.40573700706443,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:24.370192",
+      "phenomenonTime": "2025-06-14T17:56:24.370192",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:24.370192"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894984",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:24.370192",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894984",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 60.83976066350054,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:24.370192",
+      "phenomenonTime": "2025-06-14T17:56:24.370192",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:24.370192"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894989",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:29.377927",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894989",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 27.262843052550856,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:29.377927",
+      "phenomenonTime": "2025-06-14T17:56:29.377927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:29.377927"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894989",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:29.377927",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894989",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 61.38926770411254,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:29.377927",
+      "phenomenonTime": "2025-06-14T17:56:29.377927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:29.377927"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894989",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:29.377927",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894989",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 10.462914565964265,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:29.377927",
+      "phenomenonTime": "2025-06-14T17:56:29.377927",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:29.377927"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894989",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:29.377927",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894989",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 80.95988760053268,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:29.377927",
+      "phenomenonTime": "2025-06-14T17:56:29.377927",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:29.378900"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894989",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:29.378900",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894989",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 42.36602847252248,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:29.378900",
+      "phenomenonTime": "2025-06-14T17:56:29.378900",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:29.378900"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894994",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 15.251560013438315,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:34.389149",
+      "phenomenonTime": "2025-06-14T17:56:34.389149",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:34.389149"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894994",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 4.277128379539019,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:34.389149",
+      "phenomenonTime": "2025-06-14T17:56:34.389149",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:34.389149"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 4.277128379539019,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894994",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 99.73764866053514,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:34.389149",
+      "phenomenonTime": "2025-06-14T17:56:34.389149",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:34.389149"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894994",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 45.03891901346202,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:34.389149",
+      "phenomenonTime": "2025-06-14T17:56:34.389149",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:34.389149"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894994",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:34.389149",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894994",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 26.052690130547486,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:34.389149",
+      "phenomenonTime": "2025-06-14T17:56:34.389149",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:34.389149"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749894999",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 52.3034393985218,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:39.399277",
+      "phenomenonTime": "2025-06-14T17:56:39.399277",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:39.399277"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 52.3034393985218,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749894999",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 38.19294726600295,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:39.399277",
+      "phenomenonTime": "2025-06-14T17:56:39.399277",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:39.399277"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749894999",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 55.34022670908767,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:39.399277",
+      "phenomenonTime": "2025-06-14T17:56:39.399277",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:39.399277"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749894999",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 95.52080681250045,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:39.399277",
+      "phenomenonTime": "2025-06-14T17:56:39.399277",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:39.399277"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749894999",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:39.399277",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749894999",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 75.98602829830158,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:39.399277",
+      "phenomenonTime": "2025-06-14T17:56:39.399277",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:39.399277"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895004",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 71.23795553351306,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:44.407038",
+      "phenomenonTime": "2025-06-14T17:56:44.407038",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:44.407038"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 71.23795553351306,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895004",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 96.01869149316099,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:44.407038",
+      "phenomenonTime": "2025-06-14T17:56:44.407038",
+      "quality": "fair",
+      "anomaly": true,
+      "collected_at": "2025-06-14T17:56:44.407038"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "anomaly_obs_home:humiditySensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "AnomalyDetected",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "severity": "medium",
+    "description": "检测到异常值: 96.01869149316099"
+  },
+  {
+    "id": "threshold_high_home:humiditySensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "threshold_type": "high",
+    "threshold_value": 80,
+    "actual_value": 96.01869149316099,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895004",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 62.740301200872835,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:44.407038",
+      "phenomenonTime": "2025-06-14T17:56:44.407038",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:44.407038"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895004",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 8.34448052282324,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:44.407038",
+      "phenomenonTime": "2025-06-14T17:56:44.407038",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:44.407038"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895004",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:44.407038",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895004",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 89.504357623357,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:44.407038",
+      "phenomenonTime": "2025-06-14T17:56:44.407038",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:44.407038"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895009",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 97.28118201026578,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:49.415246",
+      "phenomenonTime": "2025-06-14T17:56:49.415246",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:49.415246"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 97.28118201026578,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895009",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 5.148040397705489,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:49.415246",
+      "phenomenonTime": "2025-06-14T17:56:49.415246",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:49.415246"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 5.148040397705489,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895009",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 90.72746586984589,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:49.415246",
+      "phenomenonTime": "2025-06-14T17:56:49.415246",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:49.415246"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895009",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 4.633884397845856,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:49.415246",
+      "phenomenonTime": "2025-06-14T17:56:49.415246",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:49.415246"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895009",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:49.415246",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895009",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 94.05381369779873,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:49.415246",
+      "phenomenonTime": "2025-06-14T17:56:49.415246",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:49.415246"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895014",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 95.95703509815918,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:54.423639",
+      "phenomenonTime": "2025-06-14T17:56:54.423639",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:54.423639"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 95.95703509815918,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895014",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 86.61531509760252,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:54.423639",
+      "phenomenonTime": "2025-06-14T17:56:54.423639",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:54.423639"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:humiditySensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "threshold_type": "high",
+    "threshold_value": 80,
+    "actual_value": 86.61531509760252,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895014",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 56.40251411280588,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:54.423639",
+      "phenomenonTime": "2025-06-14T17:56:54.423639",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:54.423639"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895014",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 88.52187221529113,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:54.423639",
+      "phenomenonTime": "2025-06-14T17:56:54.423639",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:54.423639"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895014",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 2.1096224938765173,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:54.423639",
+      "phenomenonTime": "2025-06-14T17:56:54.423639",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:54.423639"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749895014",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:54.423639",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 2.1096224938765173,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895019",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:56:59.432073",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895019",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 17.843775236105806,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:56:59.432073",
+      "phenomenonTime": "2025-06-14T17:56:59.432073",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:59.432073"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895019",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:56:59.432073",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895019",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 55.88922997248429,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:56:59.432073",
+      "phenomenonTime": "2025-06-14T17:56:59.432073",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:59.432073"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895019",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:56:59.432073",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895019",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 47.14354827715066,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:56:59.432073",
+      "phenomenonTime": "2025-06-14T17:56:59.432073",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:59.432073"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895019",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:56:59.432073",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895019",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 54.46519473296229,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:56:59.432073",
+      "phenomenonTime": "2025-06-14T17:56:59.432073",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:59.432073"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895019",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:56:59.432073",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895019",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 27.700222392948458,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:56:59.432073",
+      "phenomenonTime": "2025-06-14T17:56:59.432073",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:56:59.432073"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895024",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 31.528190270017163,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:04.438101",
+      "phenomenonTime": "2025-06-14T17:57:04.438101",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:04.438101"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 31.528190270017163,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895024",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 23.355817356023458,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:04.438101",
+      "phenomenonTime": "2025-06-14T17:57:04.438101",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:04.438101"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 23.355817356023458,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895024",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 67.8998650475541,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:04.438101",
+      "phenomenonTime": "2025-06-14T17:57:04.438101",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:04.438101"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895024",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 80.60030713078066,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:04.438101",
+      "phenomenonTime": "2025-06-14T17:57:04.438101",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:04.438101"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895024",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:04.438101",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895024",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 17.256945044679917,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:04.438101",
+      "phenomenonTime": "2025-06-14T17:57:04.438101",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:04.438101"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895029",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:09.446182",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895029",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 15.401592653064512,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:09.446182",
+      "phenomenonTime": "2025-06-14T17:57:09.446182",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:09.446182"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895029",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:09.446182",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895029",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 65.95924633647773,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:09.446182",
+      "phenomenonTime": "2025-06-14T17:57:09.446182",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:09.446182"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895029",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:09.446182",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895029",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 21.41986493218705,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:09.446182",
+      "phenomenonTime": "2025-06-14T17:57:09.446182",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:09.446182"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895029",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:09.446182",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895029",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 13.919027520099348,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:09.446182",
+      "phenomenonTime": "2025-06-14T17:57:09.446182",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:09.446182"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895029",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:09.446182",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895029",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 55.973822208383226,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:09.446182",
+      "phenomenonTime": "2025-06-14T17:57:09.446182",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:09.446182"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895034",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 6.495187852756579,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:14.456042",
+      "phenomenonTime": "2025-06-14T17:57:14.456042",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:14.456042"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 6.495187852756579,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895034",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 42.79849584901876,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:14.456042",
+      "phenomenonTime": "2025-06-14T17:57:14.456042",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:14.456042"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895034",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 10.472605050229799,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:14.456042",
+      "phenomenonTime": "2025-06-14T17:57:14.456042",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:14.456042"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895034",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 91.89400251771592,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:14.456042",
+      "phenomenonTime": "2025-06-14T17:57:14.456042",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:14.456042"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895034",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:14.456042",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895034",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 64.62695337447819,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:14.456042",
+      "phenomenonTime": "2025-06-14T17:57:14.456042",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:14.456042"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895039",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 57.63187695967345,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:19.468168",
+      "phenomenonTime": "2025-06-14T17:57:19.468168",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:19.468168"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 57.63187695967345,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895039",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 83.21743470285466,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:19.468168",
+      "phenomenonTime": "2025-06-14T17:57:19.468168",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:19.468168"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:humiditySensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "threshold_type": "high",
+    "threshold_value": 80,
+    "actual_value": 83.21743470285466,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895039",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 34.54816034567649,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:19.468168",
+      "phenomenonTime": "2025-06-14T17:57:19.468168",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:19.468168"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895039",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 59.4891038649339,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:19.468168",
+      "phenomenonTime": "2025-06-14T17:57:19.468168",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:19.468168"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895039",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:19.468168",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895039",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 39.16641495428925,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:19.468168",
+      "phenomenonTime": "2025-06-14T17:57:19.468168",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:19.468168"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895044",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 75.79514388391492,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:24.477072",
+      "phenomenonTime": "2025-06-14T17:57:24.477072",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:24.477072"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 75.79514388391492,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895044",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 24.714279942368023,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:24.477072",
+      "phenomenonTime": "2025-06-14T17:57:24.477072",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:24.477072"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 24.714279942368023,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895044",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 85.86592243563742,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:24.477072",
+      "phenomenonTime": "2025-06-14T17:57:24.477072",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:24.477072"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895044",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 27.135528325882063,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:24.477072",
+      "phenomenonTime": "2025-06-14T17:57:24.477072",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:24.477072"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895044",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 9.36093125257431,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:24.477072",
+      "phenomenonTime": "2025-06-14T17:57:24.477072",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:24.478102"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749895044",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:24.477072",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 9.36093125257431,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895049",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 68.11019281660708,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:29.486065",
+      "phenomenonTime": "2025-06-14T17:57:29.486065",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:29.486065"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 68.11019281660708,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895049",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 14.473097199486384,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:29.486065",
+      "phenomenonTime": "2025-06-14T17:57:29.486065",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:29.486065"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 14.473097199486384,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895049",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 86.31033939993037,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:29.486065",
+      "phenomenonTime": "2025-06-14T17:57:29.486065",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:29.486065"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895049",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 44.23685380705474,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:29.486065",
+      "phenomenonTime": "2025-06-14T17:57:29.486065",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:29.486065"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895049",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:29.486065",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895049",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 27.031374596463497,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:29.486065",
+      "phenomenonTime": "2025-06-14T17:57:29.486065",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:29.486065"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895054",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 87.08012784996838,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:34.499880",
+      "phenomenonTime": "2025-06-14T17:57:34.499880",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:34.499880"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 87.08012784996838,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895054",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 85.37460736208953,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:34.499880",
+      "phenomenonTime": "2025-06-14T17:57:34.499880",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:34.499880"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:humiditySensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "threshold_type": "high",
+    "threshold_value": 80,
+    "actual_value": 85.37460736208953,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895054",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 58.43203972039266,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:34.499880",
+      "phenomenonTime": "2025-06-14T17:57:34.499880",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:34.499880"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895054",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 38.01110946244178,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:34.499880",
+      "phenomenonTime": "2025-06-14T17:57:34.499880",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:34.499880"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895054",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 9.489577207110623,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:34.499880",
+      "phenomenonTime": "2025-06-14T17:57:34.499880",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:34.499880"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749895054",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:34.499880",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 9.489577207110623,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895059",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 67.65069932321391,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:39.515314",
+      "phenomenonTime": "2025-06-14T17:57:39.515314",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:39.515314"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 67.65069932321391,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895059",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 18.755896183766097,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:39.515314",
+      "phenomenonTime": "2025-06-14T17:57:39.515314",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:39.515314"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 18.755896183766097,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895059",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 94.18418927116036,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:39.515314",
+      "phenomenonTime": "2025-06-14T17:57:39.515314",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:39.515314"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895059",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 66.40635999359968,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:39.515314",
+      "phenomenonTime": "2025-06-14T17:57:39.515314",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:39.515314"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895059",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:39.515314",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895059",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 90.51994006507665,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:39.515314",
+      "phenomenonTime": "2025-06-14T17:57:39.515314",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:39.515314"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895064",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 8.593758785115135,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:44.525750",
+      "phenomenonTime": "2025-06-14T17:57:44.525750",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:44.525750"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 8.593758785115135,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895064",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 48.23770356580746,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:44.525750",
+      "phenomenonTime": "2025-06-14T17:57:44.525750",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:44.525750"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895064",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 70.01476258092981,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:44.525750",
+      "phenomenonTime": "2025-06-14T17:57:44.525750",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:44.525750"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895064",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 49.1175760849067,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:44.525750",
+      "phenomenonTime": "2025-06-14T17:57:44.525750",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:44.525750"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895064",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:44.525750",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895064",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 34.70389239483538,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:44.525750",
+      "phenomenonTime": "2025-06-14T17:57:44.525750",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:44.525750"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895069",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 27.245793955855845,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:49.533984",
+      "phenomenonTime": "2025-06-14T17:57:49.533984",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:49.533984"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895069",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 10.89153778572529,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:49.533984",
+      "phenomenonTime": "2025-06-14T17:57:49.533984",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:49.533984"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 10.89153778572529,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895069",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 45.68954813839973,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:49.533984",
+      "phenomenonTime": "2025-06-14T17:57:49.533984",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:49.533984"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895069",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 57.1920784109988,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:49.533984",
+      "phenomenonTime": "2025-06-14T17:57:49.533984",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:49.533984"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895069",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:49.533984",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895069",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 52.4340135156889,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:49.533984",
+      "phenomenonTime": "2025-06-14T17:57:49.533984",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:49.533984"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895074",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 59.945101316510005,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:54.543925",
+      "phenomenonTime": "2025-06-14T17:57:54.543925",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:54.543925"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 59.945101316510005,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895074",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 34.46454528731263,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:54.543925",
+      "phenomenonTime": "2025-06-14T17:57:54.543925",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:54.543925"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895074",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 60.344212116025574,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:54.543925",
+      "phenomenonTime": "2025-06-14T17:57:54.543925",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:54.543925"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895074",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 12.70777841638907,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:54.543925",
+      "phenomenonTime": "2025-06-14T17:57:54.543925",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:54.543925"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895074",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:54.543925",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895074",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 16.505486550033698,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:54.543925",
+      "phenomenonTime": "2025-06-14T17:57:54.543925",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:54.543925"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895079",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 13.733196578818552,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:57:59.574054",
+      "phenomenonTime": "2025-06-14T17:57:59.574054",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:59.574054"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:temperatureSensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "threshold_type": "low",
+    "threshold_value": 15,
+    "actual_value": 13.733196578818552,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895079",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 29.985705014696684,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:57:59.574054",
+      "phenomenonTime": "2025-06-14T17:57:59.574054",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:59.574054"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 29.985705014696684,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895079",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 47.57743599836244,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:57:59.574054",
+      "phenomenonTime": "2025-06-14T17:57:59.574054",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:59.574054"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:57:59.574054",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895079",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 53.78253718150193,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:57:59.574054",
+      "phenomenonTime": "2025-06-14T17:57:59.574054",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:59.574054"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895079",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:57:59.575026",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895079",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 51.433502509245635,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:57:59.575026",
+      "phenomenonTime": "2025-06-14T17:57:59.575026",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:57:59.575026"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895084",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 59.03218206016081,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:04.596971",
+      "phenomenonTime": "2025-06-14T17:58:04.596971",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:04.596971"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 59.03218206016081,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895084",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 42.32294132196427,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:04.596971",
+      "phenomenonTime": "2025-06-14T17:58:04.596971",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:04.596971"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895084",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 88.30133609483904,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:04.596971",
+      "phenomenonTime": "2025-06-14T17:58:04.596971",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:04.596971"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895084",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 75.50303019421523,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:04.596971",
+      "phenomenonTime": "2025-06-14T17:58:04.596971",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:04.596971"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895084",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:04.596971",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895084",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 91.4778809572728,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:04.596971",
+      "phenomenonTime": "2025-06-14T17:58:04.596971",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:04.596971"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895089",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 58.8249979627898,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:09.611056",
+      "phenomenonTime": "2025-06-14T17:58:09.611056",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:09.611056"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 58.8249979627898,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895089",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 18.750187213252147,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:09.611056",
+      "phenomenonTime": "2025-06-14T17:58:09.611056",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:09.611056"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 18.750187213252147,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895089",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 1.6804926018403443,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:09.611056",
+      "phenomenonTime": "2025-06-14T17:58:09.611056",
+      "quality": "fair",
+      "anomaly": true,
+      "collected_at": "2025-06-14T17:58:09.611056"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "anomaly_obs_home:smokeSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "AnomalyDetected",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "severity": "medium",
+    "description": "检测到异常值: 1.6804926018403443"
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895089",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 63.723048993564205,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:09.611056",
+      "phenomenonTime": "2025-06-14T17:58:09.611056",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:09.611056"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895089",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:09.611056",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895089",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 10.33426390217519,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:09.611056",
+      "phenomenonTime": "2025-06-14T17:58:09.611056",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:09.611056"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895094",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 47.8751001858343,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:14.644665",
+      "phenomenonTime": "2025-06-14T17:58:14.644665",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:14.644665"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 47.8751001858343,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895094",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 55.460622773682445,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:14.644665",
+      "phenomenonTime": "2025-06-14T17:58:14.644665",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:14.644665"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895094",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 67.313500722272,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:14.644665",
+      "phenomenonTime": "2025-06-14T17:58:14.644665",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:14.644665"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895094",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 82.75651743032401,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:14.644665",
+      "phenomenonTime": "2025-06-14T17:58:14.644665",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:14.644665"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895094",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:14.644665",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895094",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 75.73871496748848,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:14.644665",
+      "phenomenonTime": "2025-06-14T17:58:14.644665",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:14.644665"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895099",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 45.5847064978127,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:19.653655",
+      "phenomenonTime": "2025-06-14T17:58:19.653655",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:19.653655"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 45.5847064978127,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895099",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 67.53534733659261,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:19.653655",
+      "phenomenonTime": "2025-06-14T17:58:19.653655",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:19.653655"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895099",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 55.09187107455621,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:19.653655",
+      "phenomenonTime": "2025-06-14T17:58:19.653655",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:19.653655"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895099",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 9.823764779095413,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:19.653655",
+      "phenomenonTime": "2025-06-14T17:58:19.653655",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:19.653655"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895099",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:19.653655",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895099",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 23.426422437846583,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:19.653655",
+      "phenomenonTime": "2025-06-14T17:58:19.653655",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:19.653655"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895104",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 79.59453605310675,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:24.666033",
+      "phenomenonTime": "2025-06-14T17:58:24.666033",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:24.666033"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 79.59453605310675,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895104",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 18.697075752474145,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:24.666033",
+      "phenomenonTime": "2025-06-14T17:58:24.666033",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:24.666033"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:humiditySensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "threshold_type": "low",
+    "threshold_value": 30,
+    "actual_value": 18.697075752474145,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895104",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 87.4941566066036,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:24.666033",
+      "phenomenonTime": "2025-06-14T17:58:24.666033",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:24.666033"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895104",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 32.37538922378271,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:24.666033",
+      "phenomenonTime": "2025-06-14T17:58:24.666033",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:24.666033"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895104",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 7.99612957903082,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:24.666033",
+      "phenomenonTime": "2025-06-14T17:58:24.666033",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:24.666033"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749895104",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:24.666033",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 7.99612957903082,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895109",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 86.6025545192467,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:29.685039",
+      "phenomenonTime": "2025-06-14T17:58:29.685039",
+      "quality": "poor",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:29.685039"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 86.6025545192467,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895109",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 70.98912870827037,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:29.685039",
+      "phenomenonTime": "2025-06-14T17:58:29.685039",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:29.685039"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895109",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 88.44281244408623,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:29.685039",
+      "phenomenonTime": "2025-06-14T17:58:29.685039",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:29.685039"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895109",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 50.96896015018465,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:29.685039",
+      "phenomenonTime": "2025-06-14T17:58:29.685039",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:29.685039"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895109",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 9.216500074444777,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:29.685039",
+      "phenomenonTime": "2025-06-14T17:58:29.685039",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:29.685039"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_low_home:lightSensor_001_1749895109",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:29.685039",
+    "threshold_type": "low",
+    "threshold_value": 10,
+    "actual_value": 9.216500074444777,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895114",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:34.699348",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895114",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 15.278596239696185,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:34.699348",
+      "phenomenonTime": "2025-06-14T17:58:34.699348",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:34.699348"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895114",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:34.699348",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895114",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 42.618365483802336,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:34.699348",
+      "phenomenonTime": "2025-06-14T17:58:34.699348",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:34.699348"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895114",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:34.699348",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895114",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 36.50894435129652,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:34.699348",
+      "phenomenonTime": "2025-06-14T17:58:34.699348",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:34.699348"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895114",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:34.699348",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895114",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 73.9914579280324,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:34.699348",
+      "phenomenonTime": "2025-06-14T17:58:34.699348",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:34.699348"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895114",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:34.699348",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895114",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 81.72416325196275,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:34.699348",
+      "phenomenonTime": "2025-06-14T17:58:34.699348",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:34.699348"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:temperatureSensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "data": {
+      "id": "obs_home:temperatureSensor_001_1749895119",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:temperatureSensor_001",
+      "observedProperty": "home:Temperature",
+      "hasResult": {
+        "value": 45.9071384284297,
+        "unit": "°C"
+      },
+      "resultTime": "2025-06-14T17:58:39.713935",
+      "phenomenonTime": "2025-06-14T17:58:39.713935",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:39.713935"
+    },
+    "semantics": {
+      "property": "Temperature",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:temperatureSensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:temperatureSensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "threshold_type": "high",
+    "threshold_value": 30,
+    "actual_value": 45.9071384284297,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:humiditySensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "data": {
+      "id": "obs_home:humiditySensor_001_1749895119",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:humiditySensor_001",
+      "observedProperty": "home:Humidity",
+      "hasResult": {
+        "value": 85.17073770472862,
+        "unit": "%RH"
+      },
+      "resultTime": "2025-06-14T17:58:39.713935",
+      "phenomenonTime": "2025-06-14T17:58:39.713935",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:39.713935"
+    },
+    "semantics": {
+      "property": "Humidity",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "threshold_high_home:humiditySensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "ThresholdExceeded",
+    "source": "home:humiditySensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "threshold_type": "high",
+    "threshold_value": 80,
+    "actual_value": 85.17073770472862,
+    "severity": "medium"
+  },
+  {
+    "id": "event_obs_home:smokeSensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:smokeSensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "data": {
+      "id": "obs_home:smokeSensor_001_1749895119",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:smokeSensor_001",
+      "observedProperty": "home:SmokeLevel",
+      "hasResult": {
+        "value": 91.61107066366893,
+        "unit": "ppm"
+      },
+      "resultTime": "2025-06-14T17:58:39.713935",
+      "phenomenonTime": "2025-06-14T17:58:39.713935",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:39.713935"
+    },
+    "semantics": {
+      "property": "SmokeLevel",
+      "location": "厨房",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:motionSensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:motionSensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "data": {
+      "id": "obs_home:motionSensor_001_1749895119",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:motionSensor_001",
+      "observedProperty": "home:Motion",
+      "hasResult": {
+        "value": 29.731765767966124,
+        "unit": ""
+      },
+      "resultTime": "2025-06-14T17:58:39.713935",
+      "phenomenonTime": "2025-06-14T17:58:39.713935",
+      "quality": "good",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:39.713935"
+    },
+    "semantics": {
+      "property": "Motion",
+      "location": "玄关",
+      "value_interpretation": "正常"
+    }
+  },
+  {
+    "id": "event_obs_home:lightSensor_001_1749895119",
+    "type": "SemanticEvent",
+    "eventType": "SensorReading",
+    "source": "home:lightSensor_001",
+    "timestamp": "2025-06-14T17:58:39.713935",
+    "data": {
+      "id": "obs_home:lightSensor_001_1749895119",
+      "type": "sosa:Observation",
+      "madeBySensor": "home:lightSensor_001",
+      "observedProperty": "home:Illuminance",
+      "hasResult": {
+        "value": 64.7134980414363,
+        "unit": "lux"
+      },
+      "resultTime": "2025-06-14T17:58:39.713935",
+      "phenomenonTime": "2025-06-14T17:58:39.713935",
+      "quality": "fair",
+      "anomaly": false,
+      "collected_at": "2025-06-14T17:58:39.713935"
+    },
+    "semantics": {
+      "property": "Illuminance",
+      "location": "客厅",
+      "value_interpretation": "正常"
+    }
+  }
+]

@@ -1,0 +1,205 @@
+{
+  "services": [
+    {
+      "id": "temperature_monitor",
+      "name": "温度监控服务",
+      "description": "监控环境温度，提供实时温度数据和异常报警",
+      "version": "1.0.0",
+      "category": "monitoring",
+      "inputs": [
+        {
+          "name": "sensor_data",
+          "type": "object",
+          "required": true,
+          "description": "传感器原始数据"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "temperature_value",
+          "type": "number",
+          "description": "温度值"
+        },
+        {
+          "name": "temperature_status",
+          "type": "string",
+          "description": "温度状态评估"
+        },
+        {
+          "name": "alert",
+          "type": "object",
+          "description": "温度异常警报"
+        }
+      ],
+      "configuration": {
+        "sampling_rate": 5,
+        "alert_threshold_high": 30,
+        "alert_threshold_low": 15
+      }
+    },
+    {
+      "id": "humidity_control",
+      "name": "湿度控制服务",
+      "description": "控制环境湿度，自动调节加湿/除湿设备",
+      "version": "1.0.0",
+      "category": "control",
+      "inputs": [
+        {
+          "name": "humidity_data",
+          "type": "number",
+          "required": true,
+          "description": "当前湿度值"
+        },
+        {
+          "name": "target_humidity",
+          "type": "number",
+          "required": true,
+          "description": "目标湿度值"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "control_command",
+          "type": "object",
+          "description": "设备控制指令"
+        },
+        {
+          "name": "adjustment_status",
+          "type": "string",
+          "description": "调节状态"
+        }
+      ],
+      "configuration": {
+        "adjustment_step": 5,
+        "min_humidity": 30,
+        "max_humidity": 80
+      }
+    },
+    {
+      "id": "fire_detection",
+      "name": "火灾检测服务",
+      "description": "基于烟雾和温度传感器检测火灾风险",
+      "version": "1.0.0",
+      "category": "safety",
+      "inputs": [
+        {
+          "name": "smoke_data",
+          "type": "number",
+          "required": true,
+          "description": "烟雾浓度数据"
+        },
+        {
+          "name": "temperature_data",
+          "type": "number",
+          "required": true,
+          "description": "温度数据"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fire_risk_level",
+          "type": "string",
+          "description": "火灾风险级别"
+        },
+        {
+          "name": "emergency_alert",
+          "type": "object",
+          "description": "紧急警报信息"
+        }
+      ],
+      "configuration": {
+        "smoke_threshold": 200,
+        "temperature_threshold": 40,
+        "detection_sensitivity": "high"
+      }
+    },
+    {
+      "id": "energy_optimization",
+      "name": "能源优化服务",
+      "description": "基于占用情况和环境条件优化能源使用",
+      "version": "1.0.0",
+      "category": "optimization",
+      "inputs": [
+        {
+          "name": "motion_data",
+          "type": "boolean",
+          "required": true,
+          "description": "人员活动数据"
+        },
+        {
+          "name": "light_data",
+          "type": "number",
+          "required": true,
+          "description": "光照强度数据"
+        },
+        {
+          "name": "schedule",
+          "type": "object",
+          "required": false,
+          "description": "时间调度表"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "energy_plan",
+          "type": "object",
+          "description": "能源优化方案"
+        },
+        {
+          "name": "device_commands",
+          "type": "array",
+          "description": "设备控制指令列表"
+        }
+      ],
+      "configuration": {
+        "optimization_algorithm": "adaptive",
+        "energy_saving_target": 0.2,
+        "comfort_priority": "medium"
+      }
+    },
+    {
+      "id": "security_monitoring",
+      "name": "安全监控服务",
+      "description": "监控人员活动，检测异常行为",
+      "version": "1.0.0",
+      "category": "security",
+      "inputs": [
+        {
+          "name": "motion_data",
+          "type": "boolean",
+          "required": true,
+          "description": "运动检测数据"
+        },
+        {
+          "name": "door_sensor",
+          "type": "boolean",
+          "required": false,
+          "description": "门窗传感器数据"
+        },
+        {
+          "name": "time_schedule",
+          "type": "object",
+          "required": false,
+          "description": "时间表配置"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "security_status",
+          "type": "string",
+          "description": "安全状态评估"
+        },
+        {
+          "name": "intrusion_alert",
+          "type": "object",
+          "description": "入侵警报"
+        }
+      ],
+      "configuration": {
+        "detection_mode": "intelligent",
+        "alert_sensitivity": "medium",
+        "authorized_time_ranges": []
+      }
+    }
+  ]
+}
