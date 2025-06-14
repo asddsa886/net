@@ -111,9 +111,9 @@ class WebInterface:
             return render_template('dashboard.html')
         
         @self.app.route('/composition_result')
-        def composition_result():
-            """服务组合详情页面"""
-            return render_template('composition_result.html')
+    def composition_result():
+        """服务组合详情页面"""
+        return render_template('composition_result.html')
     
         @self.app.route('/api/system/status')
         def get_system_status():

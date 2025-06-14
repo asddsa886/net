@@ -387,22 +387,6 @@ class LLMServiceComposer:
         except Exception as e:
             print(f"❌ GLM-4 API调用异常: {e}")
             print("🔄 切换到模拟响应模式")
-            # )
-            
-            # if response.status_code == 200:
-            # result = response.json()
-            # print(f"✅ API调用成功，返回 {len(result.get('choices', []))} 个选择")
-            return response['choices'][0]['message']['content']
-            # else:
-            #     print(f"❌ API调用失败: {response.status_code}")
-            #     if response.text:
-            #         print(f"错误详情: {response.text[:200]}...")
-            #     print("🔄 切换到模拟响应模式")
-            #     return self._simulate_llm_response(prompt)
-                
-        except Exception as e:
-            print(f"❌ API调用异常: {e}")
-            print("🔄 切换到模拟响应模式")
             return self._simulate_llm_response(prompt)
     
     def _simulate_llm_response(self, prompt: str) -> str:

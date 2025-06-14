@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务组合详情 - 智能家居监控系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/markdown.css') }}">
+    <!-- 引入marked.js用于Markdown渲染 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 引入highlight.js用于代码高亮 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 服务组合详情</h1>
+            <div class="control-panel">
+                <button id="backBtn" class="btn btn-primary">返回仪表板</button>
+                <button id="printBtn" class="btn btn-secondary">打印/导出</button>
+                <button id="copyBtn" class="btn btn-info">复制内容</button>
+            </div>
+        </div>
+
+        <div class="composition-container">
+            <div class="composition-header">
+                <div class="composition-meta">
+                    <span id="compositionId">加载中...</span>
+                    <span id="compositionTime">创建时间: 加载中...</span>
+                </div>
+                <div class="composition-actions">
+                    <button id="regenerateBtn" class="btn btn-warning">重新生成</button>
+                    <button id="saveBtn" class="btn btn-success">保存方案</button>
+                </div>
+            </div>
+
+            <div class="composition-content">
+                <div id="markdownContent" class="markdown-body">
+                    <!-- Markdown内容将在这里渲染 -->
+                    <div class="loading-placeholder">
+                        <div class="loading"></div>
+                        <p>正在加载服务组合详情...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="composition-footer">
+                <div class="execution-panel">
+                    <h3>🚀 执行操作</h3>
+                    <div class="execution-buttons">
+                        <button id="validateBtn" class="btn btn-info">验证方案</button>
+                        <button id="executeBtn" class="btn btn-success">执行方案</button>
+                        <button id="simulateBtn" class="btn btn-secondary">模拟执行</button>
+                    </div>
+                    <div id="executionResult" class="execution-result hidden">
+                        <!-- 执行结果将在这里显示 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/composition_result.js') }}"></script>
+</body>
+
+</html>

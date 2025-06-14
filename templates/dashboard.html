@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能家居监控系统</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏠 智能家居监控系统</h1>
+            <div class="control-panel">
+                <button id="startBtn" class="btn btn-success">启动系统</button>
+                <button id="stopBtn" class="btn btn-danger">停止系统</button>
+                <button id="refreshBtn" class="btn btn-primary">刷新数据</button>
+                <div id="systemStatus" class="status stopped">系统已停止</div>
+            </div>
+        </div>
+
+        <div class="dashboard">
+            <!-- 系统统计 -->
+            <div class="card">
+                <h3>📊 系统统计</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div id="uptimeValue" class="stat-value">00:00:00</div>
+                        <div class="stat-label">运行时间</div>
+                    </div>
+                    <div class="stat-item">
+                        <div id="eventsValue" class="stat-value">0</div>
+                        <div class="stat-label">处理事件</div>
+                    </div>
+                    <div class="stat-item">
+                        <div id="sensorsValue" class="stat-value">5</div>
+                        <div class="stat-label">活跃传感器</div>
+                    </div>
+                    <div class="stat-item">
+                        <div id="compositionsValue" class="stat-value">0</div>
+                        <div class="stat-label">服务组合</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 传感器状态 -->
+            <div class="card">
+                <h3>🌡️ 传感器状态</h3>
+                <div id="sensorStatus" class="sensor-status">
+                    加载中...
+                </div>
+            </div>
+
+            <!-- 实时数据图表 -->
+            <div class="card">
+                <h3>📈 实时数据</h3>
+                <div class="chart-container">
+                    <canvas id="sensorChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 最近事件 -->
+            <div class="card">
+                <h3>🔔 最近事件</h3>
+                <div id="eventList" class="event-list">
+                    暂无事件
+                </div>
+            </div>
+        </div>
+
+        <!-- 服务组合 -->
+        <div class="card service-composition">
+            <h3>🔧 服务组合</h3>
+            <div class="composition-form">
+                <div class="form-group">
+                    <label for="targetGoal">目标需求：</label>
+                    <textarea id="targetGoal" placeholder="描述您想要实现的智能家居功能..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="constraints">约束条件：</label>
+                    <input type="text" id="constraints" placeholder="例如：响应时间<30秒,误报率<5%">
+                </div>
+                <button id="composeBtn" class="btn btn-primary">生成服务组合</button>
+                <div id="compositionLoading" class="loading hidden"></div>
+            </div>
+            <div id="compositionResult" class="hidden">
+                <h4>组合结果：</h4>
+                <pre id="compositionData"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+
+</html>

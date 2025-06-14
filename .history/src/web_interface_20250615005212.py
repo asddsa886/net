@@ -109,12 +109,12 @@ class WebInterface:
         @self.app.route('/')
         def dashboard():
             return render_template('dashboard.html')
+        # def dashboard():
+        #     """主控制台页面"""
+        #     # 读取外部HTML文件内容
+        #     template_content = self._load_html_template()
+        #     return render_template_string(template_content)
         
-        @self.app.route('/composition_result')
-        def composition_result():
-            """服务组合详情页面"""
-            return render_template('composition_result.html')
-    
         @self.app.route('/api/system/status')
         def get_system_status():
             """获取系统状态"""

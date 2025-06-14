@@ -353,7 +353,7 @@ class LLMServiceComposer:
         """调用大语言模型"""
         # 这里实现对不同LLM的调用
         # 为了演示，我们模拟一个响应
-        if self.model_type.startswith('glm'):
+        if self.model_type.startswith('gpt'):
             return self._call_openai_api(prompt)
         else:
             return self._simulate_llm_response(prompt)
