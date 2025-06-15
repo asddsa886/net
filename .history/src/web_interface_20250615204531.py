@@ -247,29 +247,13 @@ class WebInterface:
         """设置事件订阅"""
         def on_semantic_event(event):
             """处理语义事件"""
-            # 添加原始事件到事件列表
-            self.all_events.append(event)
-            
-            # 处理复杂事件
             complex_events = self.event_processor.process_semantic_event(event)
-            
-            # 添加复杂事件到事件列表
-            self.all_events.extend(complex_events)
-            
-            # 限制事件列表大小，避免内存溢出
-            if len(self.all_events) > 1000:
-                self.all_events = self.all_events[-500:]
-            
             self.system_status['total_events_processed'] += 1 + len(complex_events)
-            
-            # 打印复杂事件信息（用于调试）
-            for complex_event in complex_events:
-                print(f"生成复杂事件: {complex_event.get('eventType', '未知')} - {complex_event.get('details', {}).get('description', '')}")
         
         def on_complex_event(event):
             """处理复杂事件"""
             # 这里可以添加复杂事件的特殊处理逻辑
-            print(f"收到复杂事件通知: {event.get('eventType', '未知')}")
+            pass
         
         # 订阅事件
         self.data_collector.subscribe_to_events(on_semantic_event)

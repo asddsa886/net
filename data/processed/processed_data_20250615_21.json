@@ -1,0 +1,5867 @@
+[
+  {
+    "id": "obs_home:temperatureSensor_001_1749992401",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 96.45913729248345,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:01.571136",
+    "phenomenonTime": "2025-06-15T21:00:01.571136",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:01.571136",
+    "processed_at": "2025-06-15T21:00:01.805436",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992401",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 58.75718112952898,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:01.571136",
+    "phenomenonTime": "2025-06-15T21:00:01.571136",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:01.571136",
+    "processed_at": "2025-06-15T21:00:01.805436",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992401",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 5.817483452524252,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:01.571136",
+    "phenomenonTime": "2025-06-15T21:00:01.571136",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:01.571136",
+    "processed_at": "2025-06-15T21:00:01.805436",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992401",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 38.62863675275473,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:01.571136",
+    "phenomenonTime": "2025-06-15T21:00:01.571136",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:01.571136",
+    "processed_at": "2025-06-15T21:00:01.805436",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992401",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 15.671107036929833,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:01.571136",
+    "phenomenonTime": "2025-06-15T21:00:01.571136",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:01.571136",
+    "processed_at": "2025-06-15T21:00:01.805436",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992406",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 47.29637104241494,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:06.574328",
+    "phenomenonTime": "2025-06-15T21:00:06.574328",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:06.574328",
+    "processed_at": "2025-06-15T21:00:06.828116",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992406",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 45.51935491259639,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:06.574328",
+    "phenomenonTime": "2025-06-15T21:00:06.574328",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:06.574328",
+    "processed_at": "2025-06-15T21:00:06.828116",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992406",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 34.01274597589074,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:06.574328",
+    "phenomenonTime": "2025-06-15T21:00:06.574328",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:06.574328",
+    "processed_at": "2025-06-15T21:00:06.828116",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992406",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 26.495939387992518,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:06.574328",
+    "phenomenonTime": "2025-06-15T21:00:06.574328",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:06.574328",
+    "processed_at": "2025-06-15T21:00:06.828116",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992406",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 72.56449223002994,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:06.574328",
+    "phenomenonTime": "2025-06-15T21:00:06.574328",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:06.574328",
+    "processed_at": "2025-06-15T21:00:06.828116",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992411",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 59.42835593580187,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:11.580568",
+    "phenomenonTime": "2025-06-15T21:00:11.580568",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:11.580568",
+    "processed_at": "2025-06-15T21:00:11.846864",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992411",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 72.05726873797454,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:11.580568",
+    "phenomenonTime": "2025-06-15T21:00:11.580568",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:11.580568",
+    "processed_at": "2025-06-15T21:00:11.846864",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992411",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 27.62374947719263,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:11.580568",
+    "phenomenonTime": "2025-06-15T21:00:11.580568",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:11.580568",
+    "processed_at": "2025-06-15T21:00:11.846864",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992411",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 17.741320259559924,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:11.580568",
+    "phenomenonTime": "2025-06-15T21:00:11.580568",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:11.580568",
+    "processed_at": "2025-06-15T21:00:11.846864",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992411",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 47.674475567704235,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:11.580568",
+    "phenomenonTime": "2025-06-15T21:00:11.580568",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:11.580568",
+    "processed_at": "2025-06-15T21:00:11.846864",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992416",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 13.426989672550816,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:16.586411",
+    "phenomenonTime": "2025-06-15T21:00:16.586411",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:16.586411",
+    "processed_at": "2025-06-15T21:00:16.869253",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992416",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 37.68827968226363,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:16.586411",
+    "phenomenonTime": "2025-06-15T21:00:16.586411",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:16.586411",
+    "processed_at": "2025-06-15T21:00:16.869253",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992416",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 17.411238966676446,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:16.586411",
+    "phenomenonTime": "2025-06-15T21:00:16.586411",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:16.586411",
+    "processed_at": "2025-06-15T21:00:16.869253",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992416",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 5.655308360459421,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:16.586411",
+    "phenomenonTime": "2025-06-15T21:00:16.586411",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:16.586411",
+    "processed_at": "2025-06-15T21:00:16.869253",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992416",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 70.12616696305352,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:16.586411",
+    "phenomenonTime": "2025-06-15T21:00:16.586411",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:16.586411",
+    "processed_at": "2025-06-15T21:00:16.869253",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992421",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 43.70001002033207,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:21.592454",
+    "phenomenonTime": "2025-06-15T21:00:21.592454",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:21.592454",
+    "processed_at": "2025-06-15T21:00:21.893687",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992421",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 30.28032456873485,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:21.592454",
+    "phenomenonTime": "2025-06-15T21:00:21.592454",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:21.592454",
+    "processed_at": "2025-06-15T21:00:21.893687",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992421",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 69.33427804583621,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:21.592454",
+    "phenomenonTime": "2025-06-15T21:00:21.592454",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:21.592454",
+    "processed_at": "2025-06-15T21:00:21.893687",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992421",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 77.75229319609649,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:21.592454",
+    "phenomenonTime": "2025-06-15T21:00:21.592454",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:21.592454",
+    "processed_at": "2025-06-15T21:00:21.893687",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992421",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 69.8296961414986,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:21.592454",
+    "phenomenonTime": "2025-06-15T21:00:21.592454",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:21.592454",
+    "processed_at": "2025-06-15T21:00:21.893687",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992426",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 64.79713989402526,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:26.599229",
+    "phenomenonTime": "2025-06-15T21:00:26.599229",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:26.599229",
+    "processed_at": "2025-06-15T21:00:26.923139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992426",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 8.455449150927286,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:26.599229",
+    "phenomenonTime": "2025-06-15T21:00:26.599229",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:26.599229",
+    "processed_at": "2025-06-15T21:00:26.923139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992426",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 45.00604076804207,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:26.599229",
+    "phenomenonTime": "2025-06-15T21:00:26.599229",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:26.599229",
+    "processed_at": "2025-06-15T21:00:26.923139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992426",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 50.49947362238877,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:26.599229",
+    "phenomenonTime": "2025-06-15T21:00:26.599229",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:26.599229",
+    "processed_at": "2025-06-15T21:00:26.923139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992426",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 98.46504367455864,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:26.599229",
+    "phenomenonTime": "2025-06-15T21:00:26.599229",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:26.599229",
+    "processed_at": "2025-06-15T21:00:26.923139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992431",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 39.12518187209656,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:31.605534",
+    "phenomenonTime": "2025-06-15T21:00:31.605534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:31.605534",
+    "processed_at": "2025-06-15T21:00:31.952381",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992431",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 58.95480322453185,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:31.605534",
+    "phenomenonTime": "2025-06-15T21:00:31.605534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:31.605534",
+    "processed_at": "2025-06-15T21:00:31.952381",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992431",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 64.71822959197002,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:31.605534",
+    "phenomenonTime": "2025-06-15T21:00:31.605534",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:31.605534",
+    "processed_at": "2025-06-15T21:00:31.952381",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992431",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 84.9817191792302,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:31.605534",
+    "phenomenonTime": "2025-06-15T21:00:31.605534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:31.605534",
+    "processed_at": "2025-06-15T21:00:31.952381",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992431",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 75.75332922246977,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:31.605534",
+    "phenomenonTime": "2025-06-15T21:00:31.605534",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:31.605534",
+    "processed_at": "2025-06-15T21:00:31.952381",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992436",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 91.84223714518788,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:36.609827",
+    "phenomenonTime": "2025-06-15T21:00:36.609827",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:36.609827",
+    "processed_at": "2025-06-15T21:00:36.979029",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992436",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 28.2744340529549,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:36.609827",
+    "phenomenonTime": "2025-06-15T21:00:36.609827",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:36.609827",
+    "processed_at": "2025-06-15T21:00:36.979029",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992436",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 11.860633538138355,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:36.609827",
+    "phenomenonTime": "2025-06-15T21:00:36.609827",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:36.609827",
+    "processed_at": "2025-06-15T21:00:36.979029",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992436",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 20.076102185659916,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:36.609827",
+    "phenomenonTime": "2025-06-15T21:00:36.609827",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:36.609827",
+    "processed_at": "2025-06-15T21:00:36.979029",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992436",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 92.06045606505373,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:36.609827",
+    "phenomenonTime": "2025-06-15T21:00:36.609827",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:36.610446",
+    "processed_at": "2025-06-15T21:00:36.979029",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992441",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 61.61624843943525,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:41.616278",
+    "phenomenonTime": "2025-06-15T21:00:41.616278",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:41.616278",
+    "processed_at": "2025-06-15T21:00:42.005724",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992441",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 6.508007606756916,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:41.616278",
+    "phenomenonTime": "2025-06-15T21:00:41.616278",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:41.616278",
+    "processed_at": "2025-06-15T21:00:42.005724",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992441",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 93.79068934934119,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:41.616278",
+    "phenomenonTime": "2025-06-15T21:00:41.616278",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:41.616278",
+    "processed_at": "2025-06-15T21:00:42.005724",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992441",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 65.80583801879479,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:41.616278",
+    "phenomenonTime": "2025-06-15T21:00:41.616278",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:41.616278",
+    "processed_at": "2025-06-15T21:00:42.005724",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992441",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 50.58404771971068,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:41.616278",
+    "phenomenonTime": "2025-06-15T21:00:41.616278",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:41.616278",
+    "processed_at": "2025-06-15T21:00:42.005724",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992446",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 95.0456058670535,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:46.628398",
+    "phenomenonTime": "2025-06-15T21:00:46.628398",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:46.628398",
+    "processed_at": "2025-06-15T21:00:47.040740",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992446",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 28.60179808202361,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:46.628398",
+    "phenomenonTime": "2025-06-15T21:00:46.628398",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:46.628398",
+    "processed_at": "2025-06-15T21:00:47.040740",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992446",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 17.868388637456967,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:46.628398",
+    "phenomenonTime": "2025-06-15T21:00:46.628398",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:46.628950",
+    "processed_at": "2025-06-15T21:00:47.040740",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992446",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 1.702776249343585,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:46.628950",
+    "phenomenonTime": "2025-06-15T21:00:46.628950",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:46.628950",
+    "processed_at": "2025-06-15T21:00:47.040740",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992446",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 0.5357115934088275,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:46.628950",
+    "phenomenonTime": "2025-06-15T21:00:46.628950",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:46.628950",
+    "processed_at": "2025-06-15T21:00:47.040740",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992451",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 48.044941830013435,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:51.635705",
+    "phenomenonTime": "2025-06-15T21:00:51.635705",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:51.635705",
+    "processed_at": "2025-06-15T21:00:52.079212",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992451",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 63.117835467381475,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:51.635705",
+    "phenomenonTime": "2025-06-15T21:00:51.635705",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:51.635705",
+    "processed_at": "2025-06-15T21:00:52.079212",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992451",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 12.496499131229754,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:51.635705",
+    "phenomenonTime": "2025-06-15T21:00:51.635705",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:51.635705",
+    "processed_at": "2025-06-15T21:00:52.079212",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992451",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 17.313303169564076,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:51.635705",
+    "phenomenonTime": "2025-06-15T21:00:51.635705",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:51.635705",
+    "processed_at": "2025-06-15T21:00:52.079212",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992451",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 9.916625908946964,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:51.635705",
+    "phenomenonTime": "2025-06-15T21:00:51.635705",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:51.635705",
+    "processed_at": "2025-06-15T21:00:52.079212",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992456",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 75.53536823094572,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:00:56.643411",
+    "phenomenonTime": "2025-06-15T21:00:56.643411",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:56.643411",
+    "processed_at": "2025-06-15T21:00:57.112241",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992456",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 21.293495262179974,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:00:56.643411",
+    "phenomenonTime": "2025-06-15T21:00:56.643411",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:56.643411",
+    "processed_at": "2025-06-15T21:00:57.112241",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992456",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 69.36771126007719,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:00:56.643411",
+    "phenomenonTime": "2025-06-15T21:00:56.643411",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:56.643411",
+    "processed_at": "2025-06-15T21:00:57.112241",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992456",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 94.52815332110349,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:00:56.643411",
+    "phenomenonTime": "2025-06-15T21:00:56.643411",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:56.643411",
+    "processed_at": "2025-06-15T21:00:57.112241",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992456",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 62.57554211667649,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:00:56.643411",
+    "phenomenonTime": "2025-06-15T21:00:56.643411",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:00:56.643411",
+    "processed_at": "2025-06-15T21:00:57.112241",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992461",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 6.739929676063838,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:01.650382",
+    "phenomenonTime": "2025-06-15T21:01:01.650382",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:01.650382",
+    "processed_at": "2025-06-15T21:01:02.159177",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992461",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 91.26268843893442,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:01.650382",
+    "phenomenonTime": "2025-06-15T21:01:01.650382",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:01.650382",
+    "processed_at": "2025-06-15T21:01:02.159177",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992461",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 27.1111354700161,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:01.650382",
+    "phenomenonTime": "2025-06-15T21:01:01.650382",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:01.650382",
+    "processed_at": "2025-06-15T21:01:02.159177",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992461",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 66.77524549015364,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:01.650382",
+    "phenomenonTime": "2025-06-15T21:01:01.650382",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:01.650382",
+    "processed_at": "2025-06-15T21:01:02.159177",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992461",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 43.25508593970254,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:01.650382",
+    "phenomenonTime": "2025-06-15T21:01:01.650382",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:01.650382",
+    "processed_at": "2025-06-15T21:01:02.159177",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992466",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 93.99517106810303,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:06.658401",
+    "phenomenonTime": "2025-06-15T21:01:06.658401",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:06.658401",
+    "processed_at": "2025-06-15T21:01:07.207251",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992466",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 32.04201274163033,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:06.658401",
+    "phenomenonTime": "2025-06-15T21:01:06.658401",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:06.658401",
+    "processed_at": "2025-06-15T21:01:07.207251",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992466",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 12.850962722486582,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:06.658401",
+    "phenomenonTime": "2025-06-15T21:01:06.658401",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:06.658401",
+    "processed_at": "2025-06-15T21:01:07.207251",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992466",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 0.25047993036315663,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:06.658401",
+    "phenomenonTime": "2025-06-15T21:01:06.658401",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:06.658401",
+    "processed_at": "2025-06-15T21:01:07.207251",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992466",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 33.55775584176336,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:06.658401",
+    "phenomenonTime": "2025-06-15T21:01:06.658401",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:06.658401",
+    "processed_at": "2025-06-15T21:01:07.207251",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992471",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 40.92726578376688,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:11.668063",
+    "phenomenonTime": "2025-06-15T21:01:11.668063",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:11.668063",
+    "processed_at": "2025-06-15T21:01:12.245294",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992471",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 34.489978264383595,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:11.668063",
+    "phenomenonTime": "2025-06-15T21:01:11.668063",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:11.668063",
+    "processed_at": "2025-06-15T21:01:12.245294",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992471",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 71.99642638852086,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:11.668063",
+    "phenomenonTime": "2025-06-15T21:01:11.668063",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:11.668063",
+    "processed_at": "2025-06-15T21:01:12.245294",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992471",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 86.03957104638714,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:11.668063",
+    "phenomenonTime": "2025-06-15T21:01:11.668063",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:11.668063",
+    "processed_at": "2025-06-15T21:01:12.245294",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992471",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 21.483391249997485,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:11.668063",
+    "phenomenonTime": "2025-06-15T21:01:11.668063",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:11.668063",
+    "processed_at": "2025-06-15T21:01:12.245294",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992476",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 4.256283726196575,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:16.678212",
+    "phenomenonTime": "2025-06-15T21:01:16.678212",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:16.678212",
+    "processed_at": "2025-06-15T21:01:17.283582",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992476",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 28.77312999066488,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:16.678212",
+    "phenomenonTime": "2025-06-15T21:01:16.678212",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:16.678212",
+    "processed_at": "2025-06-15T21:01:17.283582",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992476",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 44.313203045889104,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:16.678212",
+    "phenomenonTime": "2025-06-15T21:01:16.678212",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:16.678212",
+    "processed_at": "2025-06-15T21:01:17.283582",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992476",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 15.537723110444567,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:16.678212",
+    "phenomenonTime": "2025-06-15T21:01:16.678212",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:16.678212",
+    "processed_at": "2025-06-15T21:01:17.283582",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992476",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 76.06679844455125,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:16.678212",
+    "phenomenonTime": "2025-06-15T21:01:16.678212",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:16.678212",
+    "processed_at": "2025-06-15T21:01:17.283582",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992481",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 4.577496931476155,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:21.686534",
+    "phenomenonTime": "2025-06-15T21:01:21.686534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:21.686534",
+    "processed_at": "2025-06-15T21:01:22.323535",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992481",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 54.424849608225614,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:21.686534",
+    "phenomenonTime": "2025-06-15T21:01:21.686534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:21.686534",
+    "processed_at": "2025-06-15T21:01:22.323535",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992481",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 18.366095767957468,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:21.686534",
+    "phenomenonTime": "2025-06-15T21:01:21.686534",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:21.686534",
+    "processed_at": "2025-06-15T21:01:22.323535",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992481",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 40.18605990423036,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:21.686534",
+    "phenomenonTime": "2025-06-15T21:01:21.686534",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:21.686534",
+    "processed_at": "2025-06-15T21:01:22.323535",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992481",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 91.81166500872683,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:21.686534",
+    "phenomenonTime": "2025-06-15T21:01:21.686534",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:21.686534",
+    "processed_at": "2025-06-15T21:01:22.323535",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992486",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 72.45020707980922,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:26.695188",
+    "phenomenonTime": "2025-06-15T21:01:26.695188",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:26.695188",
+    "processed_at": "2025-06-15T21:01:27.363512",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992486",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 73.26252842048045,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:26.695188",
+    "phenomenonTime": "2025-06-15T21:01:26.695188",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:26.695188",
+    "processed_at": "2025-06-15T21:01:27.363512",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992486",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 61.65555742070203,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:26.695188",
+    "phenomenonTime": "2025-06-15T21:01:26.695188",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:26.695188",
+    "processed_at": "2025-06-15T21:01:27.363512",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992486",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 99.27376850010705,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:26.695188",
+    "phenomenonTime": "2025-06-15T21:01:26.695188",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:26.695188",
+    "processed_at": "2025-06-15T21:01:27.363512",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992486",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 48.96528038379871,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:26.695188",
+    "phenomenonTime": "2025-06-15T21:01:26.695188",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:26.695188",
+    "processed_at": "2025-06-15T21:01:27.363512",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992491",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 57.32250996789104,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:31.705767",
+    "phenomenonTime": "2025-06-15T21:01:31.705767",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:31.705767",
+    "processed_at": "2025-06-15T21:01:32.402402",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992491",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 78.35295618796782,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:31.705767",
+    "phenomenonTime": "2025-06-15T21:01:31.705767",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:31.705767",
+    "processed_at": "2025-06-15T21:01:32.402402",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992491",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 56.89529731265653,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:31.705767",
+    "phenomenonTime": "2025-06-15T21:01:31.705767",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:31.705767",
+    "processed_at": "2025-06-15T21:01:32.402402",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992491",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 23.81468735711365,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:31.705767",
+    "phenomenonTime": "2025-06-15T21:01:31.705767",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:31.705767",
+    "processed_at": "2025-06-15T21:01:32.402402",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992491",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 45.976497380342074,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:31.705767",
+    "phenomenonTime": "2025-06-15T21:01:31.705767",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:31.705767",
+    "processed_at": "2025-06-15T21:01:32.402402",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992496",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 45.02466356352583,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:36.718250",
+    "phenomenonTime": "2025-06-15T21:01:36.718250",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:36.718250",
+    "processed_at": "2025-06-15T21:01:37.457185",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992496",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 87.47363846004774,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:36.718250",
+    "phenomenonTime": "2025-06-15T21:01:36.718250",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:36.718250",
+    "processed_at": "2025-06-15T21:01:37.457185",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992496",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 71.36636081191446,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:36.718250",
+    "phenomenonTime": "2025-06-15T21:01:36.718250",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:36.718250",
+    "processed_at": "2025-06-15T21:01:37.457185",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992496",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 68.69316638621956,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:36.718250",
+    "phenomenonTime": "2025-06-15T21:01:36.718250",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:36.718250",
+    "processed_at": "2025-06-15T21:01:37.457185",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992496",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 45.211628745714386,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:36.718250",
+    "phenomenonTime": "2025-06-15T21:01:36.718250",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:36.718250",
+    "processed_at": "2025-06-15T21:01:37.457185",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992501",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 48.010775525660556,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:41.726636",
+    "phenomenonTime": "2025-06-15T21:01:41.726636",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:41.726636",
+    "processed_at": "2025-06-15T21:01:42.494059",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992501",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 94.9311869895148,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:41.726636",
+    "phenomenonTime": "2025-06-15T21:01:41.726636",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:41.726636",
+    "processed_at": "2025-06-15T21:01:42.494059",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992501",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 1.4484246580261928,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:41.726636",
+    "phenomenonTime": "2025-06-15T21:01:41.726636",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:41.726636",
+    "processed_at": "2025-06-15T21:01:42.494059",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992501",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 46.50149884008701,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:41.726636",
+    "phenomenonTime": "2025-06-15T21:01:41.726636",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:41.726636",
+    "processed_at": "2025-06-15T21:01:42.494059",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992501",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 92.12334509544526,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:41.726636",
+    "phenomenonTime": "2025-06-15T21:01:41.726636",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:41.726636",
+    "processed_at": "2025-06-15T21:01:42.494059",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992506",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 31.98944567830041,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:46.738906",
+    "phenomenonTime": "2025-06-15T21:01:46.738906",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:46.738906",
+    "processed_at": "2025-06-15T21:01:47.539118",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992506",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 5.231702226266577,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:46.738906",
+    "phenomenonTime": "2025-06-15T21:01:46.738906",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:46.738906",
+    "processed_at": "2025-06-15T21:01:47.539118",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992506",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 87.67397176462359,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:46.738906",
+    "phenomenonTime": "2025-06-15T21:01:46.738906",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:46.738906",
+    "processed_at": "2025-06-15T21:01:47.539118",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992506",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 6.3612640345273475,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:46.738906",
+    "phenomenonTime": "2025-06-15T21:01:46.738906",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:46.738906",
+    "processed_at": "2025-06-15T21:01:47.539118",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992506",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 47.71204374242609,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:46.738906",
+    "phenomenonTime": "2025-06-15T21:01:46.738906",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:46.738906",
+    "processed_at": "2025-06-15T21:01:47.539118",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992511",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 40.089265320071156,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:51.750064",
+    "phenomenonTime": "2025-06-15T21:01:51.750064",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:51.750064",
+    "processed_at": "2025-06-15T21:01:52.582355",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992511",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 3.9646489444848942,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:51.750064",
+    "phenomenonTime": "2025-06-15T21:01:51.750064",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:51.750064",
+    "processed_at": "2025-06-15T21:01:52.582355",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992511",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 69.28253852953071,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:51.750064",
+    "phenomenonTime": "2025-06-15T21:01:51.750064",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:51.750064",
+    "processed_at": "2025-06-15T21:01:52.582355",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992511",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 8.299454514040505,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:51.750064",
+    "phenomenonTime": "2025-06-15T21:01:51.750064",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:51.750064",
+    "processed_at": "2025-06-15T21:01:52.582355",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992511",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 7.361211083961338,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:51.750064",
+    "phenomenonTime": "2025-06-15T21:01:51.750064",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:51.750064",
+    "processed_at": "2025-06-15T21:01:52.582355",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992516",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 43.76555719176992,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:01:56.762222",
+    "phenomenonTime": "2025-06-15T21:01:56.762222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:56.762222",
+    "processed_at": "2025-06-15T21:01:57.622218",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992516",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 71.52304909205857,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:01:56.762222",
+    "phenomenonTime": "2025-06-15T21:01:56.762222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:56.762222",
+    "processed_at": "2025-06-15T21:01:57.622218",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992516",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 64.64900361957348,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:01:56.762222",
+    "phenomenonTime": "2025-06-15T21:01:56.762222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:56.762222",
+    "processed_at": "2025-06-15T21:01:57.622218",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992516",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 48.937313618638164,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:01:56.762222",
+    "phenomenonTime": "2025-06-15T21:01:56.762222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:56.762222",
+    "processed_at": "2025-06-15T21:01:57.622218",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992516",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 51.088787753804134,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:01:56.762222",
+    "phenomenonTime": "2025-06-15T21:01:56.762222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:01:56.762222",
+    "processed_at": "2025-06-15T21:01:57.622218",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992521",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 83.32400150292128,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:01.773160",
+    "phenomenonTime": "2025-06-15T21:02:01.773160",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:01.773160",
+    "processed_at": "2025-06-15T21:02:02.685196",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992521",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 74.19424877277746,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:01.773160",
+    "phenomenonTime": "2025-06-15T21:02:01.773160",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:01.773160",
+    "processed_at": "2025-06-15T21:02:02.685196",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992521",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 40.95157597981056,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:01.773160",
+    "phenomenonTime": "2025-06-15T21:02:01.773160",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:01.773160",
+    "processed_at": "2025-06-15T21:02:02.685196",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992521",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 55.64361294594826,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:01.773160",
+    "phenomenonTime": "2025-06-15T21:02:01.773160",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:01.773160",
+    "processed_at": "2025-06-15T21:02:02.685196",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992521",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 3.435406750310388,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:01.773160",
+    "phenomenonTime": "2025-06-15T21:02:01.773160",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:01.773160",
+    "processed_at": "2025-06-15T21:02:02.685196",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992526",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 3.183488110656052,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:06.782518",
+    "phenomenonTime": "2025-06-15T21:02:06.782518",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:06.782518",
+    "processed_at": "2025-06-15T21:02:07.738172",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992526",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 89.23971269387977,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:06.782518",
+    "phenomenonTime": "2025-06-15T21:02:06.782518",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:06.782518",
+    "processed_at": "2025-06-15T21:02:07.738172",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992526",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 89.04255862597978,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:06.782518",
+    "phenomenonTime": "2025-06-15T21:02:06.782518",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:06.782518",
+    "processed_at": "2025-06-15T21:02:07.738172",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992526",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 95.15096901622658,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:06.782518",
+    "phenomenonTime": "2025-06-15T21:02:06.782518",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:06.782518",
+    "processed_at": "2025-06-15T21:02:07.738172",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992526",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 50.90521470670342,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:06.782518",
+    "phenomenonTime": "2025-06-15T21:02:06.782518",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:06.782518",
+    "processed_at": "2025-06-15T21:02:07.738172",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992531",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 60.66729803508941,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:11.793418",
+    "phenomenonTime": "2025-06-15T21:02:11.793418",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:11.793418",
+    "processed_at": "2025-06-15T21:02:12.788892",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992531",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 96.47636081856358,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:11.793418",
+    "phenomenonTime": "2025-06-15T21:02:11.793418",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:11.793418",
+    "processed_at": "2025-06-15T21:02:12.788892",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992531",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 86.31677597540089,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:11.793418",
+    "phenomenonTime": "2025-06-15T21:02:11.793418",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:11.793418",
+    "processed_at": "2025-06-15T21:02:12.788892",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992531",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 1.1407032325388644,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:11.793418",
+    "phenomenonTime": "2025-06-15T21:02:11.793418",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:11.793418",
+    "processed_at": "2025-06-15T21:02:12.788892",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992531",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 40.20570858329538,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:11.793418",
+    "phenomenonTime": "2025-06-15T21:02:11.793418",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:11.793418",
+    "processed_at": "2025-06-15T21:02:12.788892",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992536",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 53.99158891613194,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:16.804516",
+    "phenomenonTime": "2025-06-15T21:02:16.804516",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:16.804516",
+    "processed_at": "2025-06-15T21:02:16.859139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992536",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 24.796035387586045,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:16.804516",
+    "phenomenonTime": "2025-06-15T21:02:16.804516",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:16.804516",
+    "processed_at": "2025-06-15T21:02:16.859139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992536",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 77.02003797973798,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:16.804516",
+    "phenomenonTime": "2025-06-15T21:02:16.804516",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:16.804516",
+    "processed_at": "2025-06-15T21:02:16.859139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992536",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 18.209576514943095,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:16.804516",
+    "phenomenonTime": "2025-06-15T21:02:16.804516",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:16.804516",
+    "processed_at": "2025-06-15T21:02:16.859139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992536",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 21.540534939307577,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:16.804516",
+    "phenomenonTime": "2025-06-15T21:02:16.804516",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:16.804516",
+    "processed_at": "2025-06-15T21:02:16.859139",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992541",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 73.15733306127704,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:21.822468",
+    "phenomenonTime": "2025-06-15T21:02:21.822468",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:21.822468",
+    "processed_at": "2025-06-15T21:02:21.923336",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992541",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 70.29026920326379,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:21.822468",
+    "phenomenonTime": "2025-06-15T21:02:21.822468",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:21.822468",
+    "processed_at": "2025-06-15T21:02:21.923336",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992541",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 67.20235635270764,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:21.822468",
+    "phenomenonTime": "2025-06-15T21:02:21.822468",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:21.822468",
+    "processed_at": "2025-06-15T21:02:21.923336",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992541",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 7.611566466053188,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:21.822468",
+    "phenomenonTime": "2025-06-15T21:02:21.822468",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:21.822468",
+    "processed_at": "2025-06-15T21:02:21.923336",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992541",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 13.382611269814115,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:21.822468",
+    "phenomenonTime": "2025-06-15T21:02:21.822468",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:21.822468",
+    "processed_at": "2025-06-15T21:02:21.923336",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992546",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 92.33596273975397,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:26.835644",
+    "phenomenonTime": "2025-06-15T21:02:26.835644",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:26.835644",
+    "processed_at": "2025-06-15T21:02:26.970575",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992546",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 25.614846348899224,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:26.835644",
+    "phenomenonTime": "2025-06-15T21:02:26.835644",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:26.835644",
+    "processed_at": "2025-06-15T21:02:26.970575",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992546",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 7.9396636724629825,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:26.835644",
+    "phenomenonTime": "2025-06-15T21:02:26.835644",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:26.835644",
+    "processed_at": "2025-06-15T21:02:26.970575",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992546",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 42.23968820649632,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:26.835644",
+    "phenomenonTime": "2025-06-15T21:02:26.835644",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:26.835644",
+    "processed_at": "2025-06-15T21:02:26.970575",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992546",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 94.41929600392939,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:26.835644",
+    "phenomenonTime": "2025-06-15T21:02:26.835644",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:26.835644",
+    "processed_at": "2025-06-15T21:02:26.970575",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992551",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 22.78252651022924,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:31.848155",
+    "phenomenonTime": "2025-06-15T21:02:31.848155",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:31.848155",
+    "processed_at": "2025-06-15T21:02:32.030144",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992551",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 48.938252868020626,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:31.848155",
+    "phenomenonTime": "2025-06-15T21:02:31.848155",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:31.848155",
+    "processed_at": "2025-06-15T21:02:32.030144",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992551",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 0.048479624525898934,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:31.848155",
+    "phenomenonTime": "2025-06-15T21:02:31.848155",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:31.848155",
+    "processed_at": "2025-06-15T21:02:32.030144",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992551",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 73.53045099334628,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:31.848155",
+    "phenomenonTime": "2025-06-15T21:02:31.848155",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:31.848155",
+    "processed_at": "2025-06-15T21:02:32.030144",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992551",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 83.63932887783913,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:31.848155",
+    "phenomenonTime": "2025-06-15T21:02:31.848155",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:31.848155",
+    "processed_at": "2025-06-15T21:02:32.030144",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992556",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 41.37298046627264,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:36.861438",
+    "phenomenonTime": "2025-06-15T21:02:36.861438",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:36.861438",
+    "processed_at": "2025-06-15T21:02:37.097141",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992556",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 59.470242050031615,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:36.861438",
+    "phenomenonTime": "2025-06-15T21:02:36.861438",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:36.861438",
+    "processed_at": "2025-06-15T21:02:37.097141",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992556",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 12.919005524218964,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:36.861438",
+    "phenomenonTime": "2025-06-15T21:02:36.861438",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:36.861438",
+    "processed_at": "2025-06-15T21:02:37.097141",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992556",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 0.8242542162418376,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:36.861438",
+    "phenomenonTime": "2025-06-15T21:02:36.861438",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:36.861438",
+    "processed_at": "2025-06-15T21:02:37.097141",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992556",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 41.16662800543632,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:36.861438",
+    "phenomenonTime": "2025-06-15T21:02:36.861438",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:36.861438",
+    "processed_at": "2025-06-15T21:02:37.097141",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992561",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 77.1739036019752,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:41.872484",
+    "phenomenonTime": "2025-06-15T21:02:41.872484",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:41.872484",
+    "processed_at": "2025-06-15T21:02:42.172263",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992561",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 54.34782848761455,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:41.872484",
+    "phenomenonTime": "2025-06-15T21:02:41.872484",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:41.872484",
+    "processed_at": "2025-06-15T21:02:42.172263",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992561",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 17.76332007017437,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:41.872484",
+    "phenomenonTime": "2025-06-15T21:02:41.872484",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:41.872484",
+    "processed_at": "2025-06-15T21:02:42.172263",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992561",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 68.62095844827182,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:41.872484",
+    "phenomenonTime": "2025-06-15T21:02:41.872484",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:41.872484",
+    "processed_at": "2025-06-15T21:02:42.172263",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992561",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 90.77380904525737,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:41.872484",
+    "phenomenonTime": "2025-06-15T21:02:41.872484",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:41.872484",
+    "processed_at": "2025-06-15T21:02:42.172263",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992566",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 11.139267477217086,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:46.888433",
+    "phenomenonTime": "2025-06-15T21:02:46.888433",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:46.888433",
+    "processed_at": "2025-06-15T21:02:47.234600",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992566",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 36.391681614712255,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:46.888433",
+    "phenomenonTime": "2025-06-15T21:02:46.888433",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:46.888433",
+    "processed_at": "2025-06-15T21:02:47.234600",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992566",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 30.881849550578476,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:46.888433",
+    "phenomenonTime": "2025-06-15T21:02:46.888433",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:46.888433",
+    "processed_at": "2025-06-15T21:02:47.234600",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992566",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 75.31141595933771,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:46.888433",
+    "phenomenonTime": "2025-06-15T21:02:46.888433",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:46.888433",
+    "processed_at": "2025-06-15T21:02:47.234600",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992566",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 21.92880321368077,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:46.888433",
+    "phenomenonTime": "2025-06-15T21:02:46.888433",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:46.888433",
+    "processed_at": "2025-06-15T21:02:47.234600",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992571",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 67.64891824179784,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:51.900538",
+    "phenomenonTime": "2025-06-15T21:02:51.900538",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:51.900538",
+    "processed_at": "2025-06-15T21:02:52.285821",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992571",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 37.59760479915617,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:51.900538",
+    "phenomenonTime": "2025-06-15T21:02:51.900538",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:51.900538",
+    "processed_at": "2025-06-15T21:02:52.285821",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992571",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 53.93564307241658,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:51.900538",
+    "phenomenonTime": "2025-06-15T21:02:51.900538",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:51.900538",
+    "processed_at": "2025-06-15T21:02:52.285821",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992571",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 53.662452414506845,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:51.900538",
+    "phenomenonTime": "2025-06-15T21:02:51.900538",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:51.900538",
+    "processed_at": "2025-06-15T21:02:52.285821",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992571",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 98.56824390892247,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:51.900538",
+    "phenomenonTime": "2025-06-15T21:02:51.900538",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:51.900538",
+    "processed_at": "2025-06-15T21:02:52.285821",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992576",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 26.443989847693715,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:02:56.917721",
+    "phenomenonTime": "2025-06-15T21:02:56.917721",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:56.917721",
+    "processed_at": "2025-06-15T21:02:57.386541",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992576",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 37.18138607051395,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:02:56.917721",
+    "phenomenonTime": "2025-06-15T21:02:56.917721",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:56.917721",
+    "processed_at": "2025-06-15T21:02:57.386541",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992576",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 55.614328921318304,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:02:56.917721",
+    "phenomenonTime": "2025-06-15T21:02:56.917721",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:56.917721",
+    "processed_at": "2025-06-15T21:02:57.386541",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992576",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 12.756355500469374,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:02:56.917721",
+    "phenomenonTime": "2025-06-15T21:02:56.917721",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:56.917721",
+    "processed_at": "2025-06-15T21:02:57.386541",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992576",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 74.72264754643845,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:02:56.917721",
+    "phenomenonTime": "2025-06-15T21:02:56.917721",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:02:56.917721",
+    "processed_at": "2025-06-15T21:02:57.386541",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992581",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 97.64457534518722,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:01.931642",
+    "phenomenonTime": "2025-06-15T21:03:01.931642",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:01.931642",
+    "processed_at": "2025-06-15T21:03:02.443662",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992581",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 31.244276590830566,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:01.931642",
+    "phenomenonTime": "2025-06-15T21:03:01.931642",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:01.931642",
+    "processed_at": "2025-06-15T21:03:02.443662",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992581",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 81.77014401628688,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:01.931642",
+    "phenomenonTime": "2025-06-15T21:03:01.931642",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:01.931642",
+    "processed_at": "2025-06-15T21:03:02.443662",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992581",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 28.536619575955957,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:01.931642",
+    "phenomenonTime": "2025-06-15T21:03:01.931642",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:01.931642",
+    "processed_at": "2025-06-15T21:03:02.443662",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992581",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 33.60414254768814,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:01.931642",
+    "phenomenonTime": "2025-06-15T21:03:01.931642",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:01.931642",
+    "processed_at": "2025-06-15T21:03:02.443662",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992586",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 86.1889394879163,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:06.945793",
+    "phenomenonTime": "2025-06-15T21:03:06.945793",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:06.945793",
+    "processed_at": "2025-06-15T21:03:07.501001",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992586",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 92.67920784488585,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:06.945793",
+    "phenomenonTime": "2025-06-15T21:03:06.945793",
+    "quality": "fair",
+    "anomaly": true,
+    "collected_at": "2025-06-15T21:03:06.945793",
+    "processed_at": "2025-06-15T21:03:07.501001",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992586",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 14.219149747257354,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:06.945793",
+    "phenomenonTime": "2025-06-15T21:03:06.945793",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:06.945793",
+    "processed_at": "2025-06-15T21:03:07.501001",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992586",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 7.070365564230629,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:06.945793",
+    "phenomenonTime": "2025-06-15T21:03:06.945793",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:06.945793",
+    "processed_at": "2025-06-15T21:03:07.501001",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992586",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 68.39964473167981,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:06.945793",
+    "phenomenonTime": "2025-06-15T21:03:06.945793",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:06.945793",
+    "processed_at": "2025-06-15T21:03:07.501001",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992591",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 34.88471581307997,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:11.967181",
+    "phenomenonTime": "2025-06-15T21:03:11.967181",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:11.967181",
+    "processed_at": "2025-06-15T21:03:12.570068",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992591",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 45.47418647630139,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:11.967181",
+    "phenomenonTime": "2025-06-15T21:03:11.967181",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:11.967181",
+    "processed_at": "2025-06-15T21:03:12.570068",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992591",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 5.5666724071920415,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:11.967181",
+    "phenomenonTime": "2025-06-15T21:03:11.967181",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:11.967181",
+    "processed_at": "2025-06-15T21:03:12.570068",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992591",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 83.42924978841324,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:11.967181",
+    "phenomenonTime": "2025-06-15T21:03:11.967181",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:11.967181",
+    "processed_at": "2025-06-15T21:03:12.570068",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992591",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 41.896706812116236,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:11.967181",
+    "phenomenonTime": "2025-06-15T21:03:11.967181",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:11.967181",
+    "processed_at": "2025-06-15T21:03:12.570068",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992596",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 45.61460140735484,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:16.984754",
+    "phenomenonTime": "2025-06-15T21:03:16.984754",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:16.984754",
+    "processed_at": "2025-06-15T21:03:17.636148",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992596",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 46.341091505413836,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:16.984754",
+    "phenomenonTime": "2025-06-15T21:03:16.984754",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:16.984754",
+    "processed_at": "2025-06-15T21:03:17.636148",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992596",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 56.25514654612815,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:16.984754",
+    "phenomenonTime": "2025-06-15T21:03:16.984754",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:16.984754",
+    "processed_at": "2025-06-15T21:03:17.636148",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992596",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 60.64326313913967,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:16.984754",
+    "phenomenonTime": "2025-06-15T21:03:16.984754",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:16.984754",
+    "processed_at": "2025-06-15T21:03:17.636148",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992596",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 95.6909868242058,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:16.984754",
+    "phenomenonTime": "2025-06-15T21:03:16.984754",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:16.984754",
+    "processed_at": "2025-06-15T21:03:17.636148",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992602",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 48.600531893009546,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:22.005115",
+    "phenomenonTime": "2025-06-15T21:03:22.005115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:22.005115",
+    "processed_at": "2025-06-15T21:03:22.700420",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992602",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 29.49133374349747,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:22.005115",
+    "phenomenonTime": "2025-06-15T21:03:22.005115",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:22.005115",
+    "processed_at": "2025-06-15T21:03:22.700420",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992602",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 39.03789893822108,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:22.005115",
+    "phenomenonTime": "2025-06-15T21:03:22.005115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:22.005115",
+    "processed_at": "2025-06-15T21:03:22.700420",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992602",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 87.55341677557091,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:22.005115",
+    "phenomenonTime": "2025-06-15T21:03:22.005115",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:22.005115",
+    "processed_at": "2025-06-15T21:03:22.700420",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992602",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 91.42619166594118,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:22.005115",
+    "phenomenonTime": "2025-06-15T21:03:22.005115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:22.005115",
+    "processed_at": "2025-06-15T21:03:22.700420",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992607",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 84.16750275364426,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:27.020154",
+    "phenomenonTime": "2025-06-15T21:03:27.020154",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:27.020154",
+    "processed_at": "2025-06-15T21:03:27.757366",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992607",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 55.37414706454696,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:27.020154",
+    "phenomenonTime": "2025-06-15T21:03:27.020154",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:27.020154",
+    "processed_at": "2025-06-15T21:03:27.757366",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992607",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 65.52057790346427,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:27.020154",
+    "phenomenonTime": "2025-06-15T21:03:27.020154",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:27.020154",
+    "processed_at": "2025-06-15T21:03:27.757366",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992607",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 53.01948129377102,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:27.020154",
+    "phenomenonTime": "2025-06-15T21:03:27.020154",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:27.020154",
+    "processed_at": "2025-06-15T21:03:27.757366",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992607",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 53.291909022944274,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:27.020154",
+    "phenomenonTime": "2025-06-15T21:03:27.020154",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:27.020154",
+    "processed_at": "2025-06-15T21:03:27.757366",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992612",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 96.20027921272131,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:32.035038",
+    "phenomenonTime": "2025-06-15T21:03:32.035038",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:32.035038",
+    "processed_at": "2025-06-15T21:03:32.823281",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992612",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 65.95358424987239,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:32.035038",
+    "phenomenonTime": "2025-06-15T21:03:32.035038",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:32.035038",
+    "processed_at": "2025-06-15T21:03:32.823281",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992612",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 4.461442848401742,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:32.035038",
+    "phenomenonTime": "2025-06-15T21:03:32.035038",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:32.035038",
+    "processed_at": "2025-06-15T21:03:32.823281",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992612",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 66.34334890335654,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:32.035038",
+    "phenomenonTime": "2025-06-15T21:03:32.035038",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:32.035038",
+    "processed_at": "2025-06-15T21:03:32.823281",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992612",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 77.14205342433725,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:32.035038",
+    "phenomenonTime": "2025-06-15T21:03:32.035038",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:32.035038",
+    "processed_at": "2025-06-15T21:03:32.823281",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992617",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 35.06407925650434,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:37.050149",
+    "phenomenonTime": "2025-06-15T21:03:37.050149",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:37.050149",
+    "processed_at": "2025-06-15T21:03:37.912410",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992617",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 14.487418207452397,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:37.050149",
+    "phenomenonTime": "2025-06-15T21:03:37.050149",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:37.050149",
+    "processed_at": "2025-06-15T21:03:37.912410",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992617",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 30.461381198971683,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:37.050149",
+    "phenomenonTime": "2025-06-15T21:03:37.050149",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:37.050149",
+    "processed_at": "2025-06-15T21:03:37.912410",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992617",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 38.93673616829124,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:37.050149",
+    "phenomenonTime": "2025-06-15T21:03:37.050149",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:37.050149",
+    "processed_at": "2025-06-15T21:03:37.912410",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992617",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 91.33047266136113,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:37.050149",
+    "phenomenonTime": "2025-06-15T21:03:37.050149",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:37.050149",
+    "processed_at": "2025-06-15T21:03:37.912410",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992622",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 71.44048800650104,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:42.067039",
+    "phenomenonTime": "2025-06-15T21:03:42.067039",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:42.067039",
+    "processed_at": "2025-06-15T21:03:42.981231",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992622",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 87.31438539347876,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:42.067039",
+    "phenomenonTime": "2025-06-15T21:03:42.067039",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:42.067039",
+    "processed_at": "2025-06-15T21:03:42.981231",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992622",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 99.1315111485833,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:42.067039",
+    "phenomenonTime": "2025-06-15T21:03:42.067039",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:42.067039",
+    "processed_at": "2025-06-15T21:03:42.981231",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992622",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 26.789944670198686,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:42.067039",
+    "phenomenonTime": "2025-06-15T21:03:42.067039",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:42.067039",
+    "processed_at": "2025-06-15T21:03:42.981231",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992622",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 93.09885015952747,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:42.067039",
+    "phenomenonTime": "2025-06-15T21:03:42.067039",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:42.067039",
+    "processed_at": "2025-06-15T21:03:42.981231",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992627",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 21.662158118494645,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:47.082616",
+    "phenomenonTime": "2025-06-15T21:03:47.082616",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:47.082616",
+    "processed_at": "2025-06-15T21:03:48.049073",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992627",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 6.12994150231364,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:47.082616",
+    "phenomenonTime": "2025-06-15T21:03:47.082616",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:47.082616",
+    "processed_at": "2025-06-15T21:03:48.049073",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992627",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 38.41968512512045,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:47.082616",
+    "phenomenonTime": "2025-06-15T21:03:47.082616",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:47.082616",
+    "processed_at": "2025-06-15T21:03:48.049073",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992627",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 56.69809225686716,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:47.082616",
+    "phenomenonTime": "2025-06-15T21:03:47.082616",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:47.082616",
+    "processed_at": "2025-06-15T21:03:48.049073",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992627",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 73.88328825476006,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:47.082616",
+    "phenomenonTime": "2025-06-15T21:03:47.082616",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:47.082616",
+    "processed_at": "2025-06-15T21:03:48.049073",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992632",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 41.81727994840138,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:52.101222",
+    "phenomenonTime": "2025-06-15T21:03:52.101222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:52.101222",
+    "processed_at": "2025-06-15T21:03:53.112495",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992632",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 33.257628595909985,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:52.101222",
+    "phenomenonTime": "2025-06-15T21:03:52.101222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:52.101222",
+    "processed_at": "2025-06-15T21:03:53.112495",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992632",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 59.72059518777848,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:52.101222",
+    "phenomenonTime": "2025-06-15T21:03:52.101222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:52.101222",
+    "processed_at": "2025-06-15T21:03:53.112495",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992632",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 36.578082139672865,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:52.101222",
+    "phenomenonTime": "2025-06-15T21:03:52.101222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:52.101222",
+    "processed_at": "2025-06-15T21:03:53.112495",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992632",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 87.04213878033073,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:52.101222",
+    "phenomenonTime": "2025-06-15T21:03:52.101222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:52.101222",
+    "processed_at": "2025-06-15T21:03:53.112495",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992637",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 81.11034746931354,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:03:57.118283",
+    "phenomenonTime": "2025-06-15T21:03:57.118283",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:57.118283",
+    "processed_at": "2025-06-15T21:03:57.174576",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992637",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 42.85321628254146,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:03:57.118283",
+    "phenomenonTime": "2025-06-15T21:03:57.118283",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:57.118283",
+    "processed_at": "2025-06-15T21:03:57.174576",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992637",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 13.136452243587971,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:03:57.118898",
+    "phenomenonTime": "2025-06-15T21:03:57.118898",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:57.118898",
+    "processed_at": "2025-06-15T21:03:57.174576",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992637",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 1.7232716090445632,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:03:57.118898",
+    "phenomenonTime": "2025-06-15T21:03:57.118898",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:57.118898",
+    "processed_at": "2025-06-15T21:03:57.174576",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992637",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 72.61790126264802,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:03:57.118898",
+    "phenomenonTime": "2025-06-15T21:03:57.118898",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:03:57.118898",
+    "processed_at": "2025-06-15T21:03:57.174576",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992642",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 37.52140183991328,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:02.143638",
+    "phenomenonTime": "2025-06-15T21:04:02.143638",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:02.143638",
+    "processed_at": "2025-06-15T21:04:02.256725",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992642",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 20.777884531596612,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:02.143638",
+    "phenomenonTime": "2025-06-15T21:04:02.143638",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:02.143638",
+    "processed_at": "2025-06-15T21:04:02.256725",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992642",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 48.88260968789918,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:02.143638",
+    "phenomenonTime": "2025-06-15T21:04:02.143638",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:02.143638",
+    "processed_at": "2025-06-15T21:04:02.256725",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992642",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 43.72770270715816,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:02.143638",
+    "phenomenonTime": "2025-06-15T21:04:02.143638",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:02.143638",
+    "processed_at": "2025-06-15T21:04:02.256725",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992642",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 18.027036805879415,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:02.143638",
+    "phenomenonTime": "2025-06-15T21:04:02.143638",
+    "quality": "fair",
+    "anomaly": true,
+    "collected_at": "2025-06-15T21:04:02.143638",
+    "processed_at": "2025-06-15T21:04:02.256725",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992647",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 81.24192816432328,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:07.160321",
+    "phenomenonTime": "2025-06-15T21:04:07.160321",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:07.160321",
+    "processed_at": "2025-06-15T21:04:07.317463",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992647",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 81.88491961216744,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:07.160321",
+    "phenomenonTime": "2025-06-15T21:04:07.160321",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:07.160321",
+    "processed_at": "2025-06-15T21:04:07.317463",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992647",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 53.279439612100695,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:07.160321",
+    "phenomenonTime": "2025-06-15T21:04:07.160321",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:07.160321",
+    "processed_at": "2025-06-15T21:04:07.317463",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992647",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 15.361768819790534,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:07.160321",
+    "phenomenonTime": "2025-06-15T21:04:07.160321",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:07.160321",
+    "processed_at": "2025-06-15T21:04:07.317463",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992647",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 72.70304078580399,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:07.160321",
+    "phenomenonTime": "2025-06-15T21:04:07.160321",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:07.160321",
+    "processed_at": "2025-06-15T21:04:07.317463",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992652",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 57.53746565968731,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:12.177316",
+    "phenomenonTime": "2025-06-15T21:04:12.177316",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:12.177316",
+    "processed_at": "2025-06-15T21:04:12.378853",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992652",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 73.39620364350401,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:12.177316",
+    "phenomenonTime": "2025-06-15T21:04:12.177316",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:12.177316",
+    "processed_at": "2025-06-15T21:04:12.378853",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992652",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 17.95770145396417,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:12.177316",
+    "phenomenonTime": "2025-06-15T21:04:12.177316",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:12.177316",
+    "processed_at": "2025-06-15T21:04:12.378853",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992652",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 17.831409831988676,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:12.177316",
+    "phenomenonTime": "2025-06-15T21:04:12.177316",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:12.177316",
+    "processed_at": "2025-06-15T21:04:12.378853",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992652",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 85.68984277983544,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:12.177316",
+    "phenomenonTime": "2025-06-15T21:04:12.177316",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:12.177316",
+    "processed_at": "2025-06-15T21:04:12.378853",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992657",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 88.37304169506567,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:17.194516",
+    "phenomenonTime": "2025-06-15T21:04:17.194516",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:17.194516",
+    "processed_at": "2025-06-15T21:04:17.468181",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992657",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 98.67811868720383,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:17.194516",
+    "phenomenonTime": "2025-06-15T21:04:17.194516",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:17.194516",
+    "processed_at": "2025-06-15T21:04:17.468181",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992657",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 92.94328466897981,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:17.194516",
+    "phenomenonTime": "2025-06-15T21:04:17.194516",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:17.194516",
+    "processed_at": "2025-06-15T21:04:17.468181",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992657",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 53.63716037763139,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:17.194516",
+    "phenomenonTime": "2025-06-15T21:04:17.194516",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:17.194516",
+    "processed_at": "2025-06-15T21:04:17.468181",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992657",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 85.61288920221659,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:17.194516",
+    "phenomenonTime": "2025-06-15T21:04:17.194516",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:17.194516",
+    "processed_at": "2025-06-15T21:04:17.468181",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992662",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 76.4271948375887,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:22.213841",
+    "phenomenonTime": "2025-06-15T21:04:22.213841",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:22.213841",
+    "processed_at": "2025-06-15T21:04:22.550898",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992662",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 12.826349154172101,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:22.213841",
+    "phenomenonTime": "2025-06-15T21:04:22.213841",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:22.213841",
+    "processed_at": "2025-06-15T21:04:22.550898",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992662",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 91.35590366621976,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:22.213841",
+    "phenomenonTime": "2025-06-15T21:04:22.213841",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:22.213841",
+    "processed_at": "2025-06-15T21:04:22.550898",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992662",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 35.94060949431335,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:22.213841",
+    "phenomenonTime": "2025-06-15T21:04:22.213841",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:22.213841",
+    "processed_at": "2025-06-15T21:04:22.550898",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992662",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 43.617422931970886,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:22.213841",
+    "phenomenonTime": "2025-06-15T21:04:22.213841",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:22.213841",
+    "processed_at": "2025-06-15T21:04:22.550898",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992667",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 24.722232225451535,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:27.240280",
+    "phenomenonTime": "2025-06-15T21:04:27.240280",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:27.240280",
+    "processed_at": "2025-06-15T21:04:27.625154",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992667",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 10.816593344352688,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:27.240280",
+    "phenomenonTime": "2025-06-15T21:04:27.240280",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:27.240280",
+    "processed_at": "2025-06-15T21:04:27.625154",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992667",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 38.0805229057887,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:27.240280",
+    "phenomenonTime": "2025-06-15T21:04:27.240280",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:27.240280",
+    "processed_at": "2025-06-15T21:04:27.625154",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992667",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 23.75712816725447,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:27.240280",
+    "phenomenonTime": "2025-06-15T21:04:27.240280",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:27.240280",
+    "processed_at": "2025-06-15T21:04:27.625154",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992667",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 52.3936233858189,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:27.240280",
+    "phenomenonTime": "2025-06-15T21:04:27.240280",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:27.240280",
+    "processed_at": "2025-06-15T21:04:27.625154",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992672",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 93.65009267553808,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:32.260189",
+    "phenomenonTime": "2025-06-15T21:04:32.260189",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:32.260189",
+    "processed_at": "2025-06-15T21:04:32.698986",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992672",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 37.313116236475175,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:32.260189",
+    "phenomenonTime": "2025-06-15T21:04:32.260189",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:32.260189",
+    "processed_at": "2025-06-15T21:04:32.698986",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992672",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 57.11114354244299,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:32.260189",
+    "phenomenonTime": "2025-06-15T21:04:32.260189",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:32.260189",
+    "processed_at": "2025-06-15T21:04:32.698986",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992672",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 5.43799049211886,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:32.260189",
+    "phenomenonTime": "2025-06-15T21:04:32.260189",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:32.260189",
+    "processed_at": "2025-06-15T21:04:32.698986",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992672",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 59.68956878802394,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:32.260189",
+    "phenomenonTime": "2025-06-15T21:04:32.260189",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:32.260189",
+    "processed_at": "2025-06-15T21:04:32.698986",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992677",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 21.1487013683754,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:37.278043",
+    "phenomenonTime": "2025-06-15T21:04:37.278043",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:37.278043",
+    "processed_at": "2025-06-15T21:04:37.773788",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992677",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 62.72247108295568,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:37.278043",
+    "phenomenonTime": "2025-06-15T21:04:37.278043",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:37.278043",
+    "processed_at": "2025-06-15T21:04:37.773788",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992677",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 55.02447714147009,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:37.278043",
+    "phenomenonTime": "2025-06-15T21:04:37.278043",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:37.278043",
+    "processed_at": "2025-06-15T21:04:37.773788",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992677",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 27.359289777068817,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:37.278043",
+    "phenomenonTime": "2025-06-15T21:04:37.278043",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:37.278043",
+    "processed_at": "2025-06-15T21:04:37.773788",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992677",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 70.90245094745204,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:37.278043",
+    "phenomenonTime": "2025-06-15T21:04:37.278043",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:37.278043",
+    "processed_at": "2025-06-15T21:04:37.773788",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992682",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 91.57112921175955,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:42.296285",
+    "phenomenonTime": "2025-06-15T21:04:42.296285",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:42.296285",
+    "processed_at": "2025-06-15T21:04:42.855205",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992682",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 8.033955550980831,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:42.296285",
+    "phenomenonTime": "2025-06-15T21:04:42.296285",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:42.296285",
+    "processed_at": "2025-06-15T21:04:42.855205",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992682",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 86.39372613690169,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:42.296285",
+    "phenomenonTime": "2025-06-15T21:04:42.296285",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:42.296285",
+    "processed_at": "2025-06-15T21:04:42.855205",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992682",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 29.280525880671636,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:42.296285",
+    "phenomenonTime": "2025-06-15T21:04:42.296285",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:42.296285",
+    "processed_at": "2025-06-15T21:04:42.855205",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992682",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 55.44047599154629,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:42.296285",
+    "phenomenonTime": "2025-06-15T21:04:42.296285",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:42.296285",
+    "processed_at": "2025-06-15T21:04:42.856445",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992687",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 50.815219975714676,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:47.317474",
+    "phenomenonTime": "2025-06-15T21:04:47.317474",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:47.317986",
+    "processed_at": "2025-06-15T21:04:47.945009",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992687",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 40.26919456121747,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:47.317986",
+    "phenomenonTime": "2025-06-15T21:04:47.317986",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:47.317986",
+    "processed_at": "2025-06-15T21:04:47.945009",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992687",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 60.051507262319014,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:47.317986",
+    "phenomenonTime": "2025-06-15T21:04:47.317986",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:47.317986",
+    "processed_at": "2025-06-15T21:04:47.945009",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992687",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 12.324069829509343,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:47.317986",
+    "phenomenonTime": "2025-06-15T21:04:47.317986",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:47.317986",
+    "processed_at": "2025-06-15T21:04:47.945009",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992687",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 23.324030196940193,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:47.317986",
+    "phenomenonTime": "2025-06-15T21:04:47.317986",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:47.317986",
+    "processed_at": "2025-06-15T21:04:47.945009",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992692",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 42.12934976671657,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:52.349222",
+    "phenomenonTime": "2025-06-15T21:04:52.349222",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:52.349222",
+    "processed_at": "2025-06-15T21:04:53.051646",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992692",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 95.06027316893596,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:52.349222",
+    "phenomenonTime": "2025-06-15T21:04:52.349222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:52.349222",
+    "processed_at": "2025-06-15T21:04:53.051646",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992692",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 96.07560986737373,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:52.349222",
+    "phenomenonTime": "2025-06-15T21:04:52.349222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:52.349222",
+    "processed_at": "2025-06-15T21:04:53.051646",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992692",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 90.45800606737144,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:52.349222",
+    "phenomenonTime": "2025-06-15T21:04:52.349222",
+    "quality": "good",
+    "anomaly": true,
+    "collected_at": "2025-06-15T21:04:52.349222",
+    "processed_at": "2025-06-15T21:04:53.051646",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992692",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 55.04341003992177,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:52.349222",
+    "phenomenonTime": "2025-06-15T21:04:52.349222",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:52.349222",
+    "processed_at": "2025-06-15T21:04:53.051646",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992697",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 79.67488161049901,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:04:57.380512",
+    "phenomenonTime": "2025-06-15T21:04:57.380512",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:57.380512",
+    "processed_at": "2025-06-15T21:04:58.150459",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992697",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 94.92397029775648,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:04:57.380512",
+    "phenomenonTime": "2025-06-15T21:04:57.380512",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:57.380512",
+    "processed_at": "2025-06-15T21:04:58.150459",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992697",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 47.56214300304309,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:04:57.380512",
+    "phenomenonTime": "2025-06-15T21:04:57.380512",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:57.380512",
+    "processed_at": "2025-06-15T21:04:58.150459",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992697",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 43.219138949149624,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:04:57.380512",
+    "phenomenonTime": "2025-06-15T21:04:57.380512",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:57.380512",
+    "processed_at": "2025-06-15T21:04:58.150459",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992697",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 39.000529581986186,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:04:57.380512",
+    "phenomenonTime": "2025-06-15T21:04:57.380512",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:04:57.380512",
+    "processed_at": "2025-06-15T21:04:58.150459",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992702",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 81.82135194039994,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:02.406283",
+    "phenomenonTime": "2025-06-15T21:05:02.406283",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:02.406283",
+    "processed_at": "2025-06-15T21:05:03.251766",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992702",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 84.45748607226412,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:02.406283",
+    "phenomenonTime": "2025-06-15T21:05:02.406283",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:02.406283",
+    "processed_at": "2025-06-15T21:05:03.251766",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992702",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 64.96912908789064,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:02.406283",
+    "phenomenonTime": "2025-06-15T21:05:02.406283",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:02.406283",
+    "processed_at": "2025-06-15T21:05:03.251766",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992702",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 6.423568925988022,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:02.406283",
+    "phenomenonTime": "2025-06-15T21:05:02.406283",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:02.406283",
+    "processed_at": "2025-06-15T21:05:03.251766",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992702",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 0.3245952509834171,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:02.406283",
+    "phenomenonTime": "2025-06-15T21:05:02.406283",
+    "quality": "poor",
+    "anomaly": true,
+    "collected_at": "2025-06-15T21:05:02.407379",
+    "processed_at": "2025-06-15T21:05:03.251766",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992707",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 99.10894290258818,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:07.428259",
+    "phenomenonTime": "2025-06-15T21:05:07.428259",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:07.428259",
+    "processed_at": "2025-06-15T21:05:08.332427",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992707",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 74.98552700208538,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:07.428259",
+    "phenomenonTime": "2025-06-15T21:05:07.428259",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:07.428259",
+    "processed_at": "2025-06-15T21:05:08.332427",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992707",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 68.80443982363659,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:07.428835",
+    "phenomenonTime": "2025-06-15T21:05:07.428835",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:07.428835",
+    "processed_at": "2025-06-15T21:05:08.332427",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992707",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 79.25165327976298,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:07.428835",
+    "phenomenonTime": "2025-06-15T21:05:07.428835",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:07.428835",
+    "processed_at": "2025-06-15T21:05:08.332427",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992707",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 72.56523208093894,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:07.428835",
+    "phenomenonTime": "2025-06-15T21:05:07.428835",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:07.428835",
+    "processed_at": "2025-06-15T21:05:08.332427",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992712",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 57.88882673874932,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:12.490867",
+    "phenomenonTime": "2025-06-15T21:05:12.490867",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:12.490867",
+    "processed_at": "2025-06-15T21:05:13.408916",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992712",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 68.77921099504096,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:12.490867",
+    "phenomenonTime": "2025-06-15T21:05:12.490867",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:12.490867",
+    "processed_at": "2025-06-15T21:05:13.408916",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992712",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 56.16062306779036,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:12.490867",
+    "phenomenonTime": "2025-06-15T21:05:12.490867",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:12.490867",
+    "processed_at": "2025-06-15T21:05:13.408916",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992712",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 98.07150162087923,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:12.490867",
+    "phenomenonTime": "2025-06-15T21:05:12.490867",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:12.490867",
+    "processed_at": "2025-06-15T21:05:13.408916",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992712",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 67.46985004739004,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:12.490867",
+    "phenomenonTime": "2025-06-15T21:05:12.490867",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:12.490867",
+    "processed_at": "2025-06-15T21:05:13.408916",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992717",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 46.04204235712922,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:17.512619",
+    "phenomenonTime": "2025-06-15T21:05:17.512619",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:17.512619",
+    "processed_at": "2025-06-15T21:05:18.493739",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992717",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 59.63336528978963,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:17.512619",
+    "phenomenonTime": "2025-06-15T21:05:17.512619",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:17.512619",
+    "processed_at": "2025-06-15T21:05:18.493739",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992717",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 92.88634627909404,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:17.512619",
+    "phenomenonTime": "2025-06-15T21:05:17.512619",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:17.512619",
+    "processed_at": "2025-06-15T21:05:18.493739",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992717",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 59.03163573332759,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:17.512619",
+    "phenomenonTime": "2025-06-15T21:05:17.512619",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:17.512619",
+    "processed_at": "2025-06-15T21:05:18.493739",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992717",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 22.340508682411276,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:17.512619",
+    "phenomenonTime": "2025-06-15T21:05:17.512619",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:17.512619",
+    "processed_at": "2025-06-15T21:05:18.493739",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992722",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 32.84400047809245,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:22.537363",
+    "phenomenonTime": "2025-06-15T21:05:22.537363",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:22.537363",
+    "processed_at": "2025-06-15T21:05:22.632840",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992722",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 18.68069816202388,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:22.537363",
+    "phenomenonTime": "2025-06-15T21:05:22.537363",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:22.537363",
+    "processed_at": "2025-06-15T21:05:22.632840",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992722",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 6.263156707147555,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:22.537363",
+    "phenomenonTime": "2025-06-15T21:05:22.537363",
+    "quality": "fair",
+    "anomaly": true,
+    "collected_at": "2025-06-15T21:05:22.537363",
+    "processed_at": "2025-06-15T21:05:22.632840",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992722",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 30.82189707302977,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:22.537363",
+    "phenomenonTime": "2025-06-15T21:05:22.537363",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:22.537363",
+    "processed_at": "2025-06-15T21:05:22.632840",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992722",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 9.156939515648032,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:22.537363",
+    "phenomenonTime": "2025-06-15T21:05:22.537363",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:22.537363",
+    "processed_at": "2025-06-15T21:05:22.632840",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992727",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 27.828583607934586,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:27.580115",
+    "phenomenonTime": "2025-06-15T21:05:27.580115",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:27.580115",
+    "processed_at": "2025-06-15T21:05:27.744816",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992727",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 6.115259890676638,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:27.580115",
+    "phenomenonTime": "2025-06-15T21:05:27.580115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:27.580115",
+    "processed_at": "2025-06-15T21:05:27.744816",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992727",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 9.973827812223924,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:27.580115",
+    "phenomenonTime": "2025-06-15T21:05:27.580115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:27.580115",
+    "processed_at": "2025-06-15T21:05:27.744816",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992727",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 32.7689622622769,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:27.580115",
+    "phenomenonTime": "2025-06-15T21:05:27.580115",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:27.580115",
+    "processed_at": "2025-06-15T21:05:27.744816",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992727",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 57.989045650931345,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:27.580115",
+    "phenomenonTime": "2025-06-15T21:05:27.580115",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:27.580115",
+    "processed_at": "2025-06-15T21:05:27.744816",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992732",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 48.53530303714746,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:32.606163",
+    "phenomenonTime": "2025-06-15T21:05:32.606163",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:32.606163",
+    "processed_at": "2025-06-15T21:05:32.860633",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992732",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 88.61738834106079,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:32.606163",
+    "phenomenonTime": "2025-06-15T21:05:32.606163",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:32.606163",
+    "processed_at": "2025-06-15T21:05:32.860633",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992732",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 94.06545802904145,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:32.606163",
+    "phenomenonTime": "2025-06-15T21:05:32.606163",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:32.606163",
+    "processed_at": "2025-06-15T21:05:32.860633",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992732",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 71.12106019375301,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:32.606163",
+    "phenomenonTime": "2025-06-15T21:05:32.606163",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:32.606163",
+    "processed_at": "2025-06-15T21:05:32.860633",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992732",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 2.005556562518418,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:32.606163",
+    "phenomenonTime": "2025-06-15T21:05:32.606163",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:32.606163",
+    "processed_at": "2025-06-15T21:05:32.860633",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992737",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 53.89835411367996,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:37.631735",
+    "phenomenonTime": "2025-06-15T21:05:37.631735",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:37.631735",
+    "processed_at": "2025-06-15T21:05:37.991621",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992737",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 31.351279918871988,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:37.631735",
+    "phenomenonTime": "2025-06-15T21:05:37.631735",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:37.631735",
+    "processed_at": "2025-06-15T21:05:37.991621",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992737",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 70.02883806735386,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:37.631735",
+    "phenomenonTime": "2025-06-15T21:05:37.631735",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:37.631735",
+    "processed_at": "2025-06-15T21:05:37.991621",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992737",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 12.932925645689519,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:37.631735",
+    "phenomenonTime": "2025-06-15T21:05:37.631735",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:37.631735",
+    "processed_at": "2025-06-15T21:05:37.991621",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992737",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 31.114944732802897,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:37.631735",
+    "phenomenonTime": "2025-06-15T21:05:37.631735",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:37.631735",
+    "processed_at": "2025-06-15T21:05:37.991621",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:temperatureSensor_001_1749992742",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:temperatureSensor_001",
+    "observedProperty": "home:Temperature",
+    "hasResult": {
+      "value": 80.11346299272357,
+      "unit": "°C"
+    },
+    "resultTime": "2025-06-15T21:05:42.654766",
+    "phenomenonTime": "2025-06-15T21:05:42.654766",
+    "quality": "poor",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:42.654766",
+    "processed_at": "2025-06-15T21:05:43.068131",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:humiditySensor_001_1749992742",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:humiditySensor_001",
+    "observedProperty": "home:Humidity",
+    "hasResult": {
+      "value": 81.29115280200323,
+      "unit": "%RH"
+    },
+    "resultTime": "2025-06-15T21:05:42.654766",
+    "phenomenonTime": "2025-06-15T21:05:42.654766",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:42.654766",
+    "processed_at": "2025-06-15T21:05:43.068131",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:smokeSensor_001_1749992742",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:smokeSensor_001",
+    "observedProperty": "home:SmokeLevel",
+    "hasResult": {
+      "value": 68.67408659749549,
+      "unit": "ppm"
+    },
+    "resultTime": "2025-06-15T21:05:42.654766",
+    "phenomenonTime": "2025-06-15T21:05:42.654766",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:42.654766",
+    "processed_at": "2025-06-15T21:05:43.068131",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:motionSensor_001_1749992742",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:motionSensor_001",
+    "observedProperty": "home:Motion",
+    "hasResult": {
+      "value": 92.01336481435638,
+      "unit": ""
+    },
+    "resultTime": "2025-06-15T21:05:42.654766",
+    "phenomenonTime": "2025-06-15T21:05:42.654766",
+    "quality": "good",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:42.654766",
+    "processed_at": "2025-06-15T21:05:43.068131",
+    "processing_version": "1.0"
+  },
+  {
+    "id": "obs_home:lightSensor_001_1749992742",
+    "type": "sosa:Observation",
+    "madeBySensor": "home:lightSensor_001",
+    "observedProperty": "home:Illuminance",
+    "hasResult": {
+      "value": 26.06964779375841,
+      "unit": "lux"
+    },
+    "resultTime": "2025-06-15T21:05:42.654766",
+    "phenomenonTime": "2025-06-15T21:05:42.654766",
+    "quality": "fair",
+    "anomaly": false,
+    "collected_at": "2025-06-15T21:05:42.654766",
+    "processed_at": "2025-06-15T21:05:43.068131",
+    "processing_version": "1.0"
+  }
+]
